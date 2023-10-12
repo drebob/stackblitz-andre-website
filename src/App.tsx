@@ -6,7 +6,7 @@ export const App: FC<{ name: string }> = ({ name }) => {
   return (
     <div>
       <h1>Hello you!</h1>
-      <p>This is the first version of my website :)</p>
+      <p>This is the first version of my website :) whaoooooo</p>
     </div>
   );
 };
