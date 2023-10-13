@@ -14,7 +14,7 @@ const VideoHeader: React.FC = () => {
 
       p.draw = () => {
         p.fill(255, 0, 150);
-        p.ellipse(p.mouseX, p.mouseY, 25, 25);
+        p.ellipse(p.mouseX, p.mouseY, 100, 100);
       };
     };
 
