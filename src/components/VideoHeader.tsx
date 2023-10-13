@@ -35,7 +35,7 @@ const VideoHeader: React.FC = () => {
         masterY = p.height / 2;
         p.colorMode(p.HSB);
         p.strokeWeight(0.2);
-        p.fill(255, 4);
+        p.fill(255, 4, 255, 0);
       };
 
       const doSetupModels = () => {
