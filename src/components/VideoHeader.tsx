@@ -8,13 +8,17 @@ const VideoHeader: React.FC = () => {
   useEffect(() => {
     const sketch = (p: p5) => {
       p.setup = () => {
-        p.createCanvas(800, 400);
+        p.createCanvas(p.windowWidth, p.windowHeight);
         p.background(200);
       };
 
       p.draw = () => {
         p.fill(31, 57, 33);
         p.ellipse(p.mouseX, p.mouseY, 200, 200);
+      };
+
+      p.windowResized = () => {
+        p.resizeCanvas(p.windowWidth, p.windowHeight);
       };
     };
 
@@ -26,7 +30,12 @@ const VideoHeader: React.FC = () => {
     };
   }, []);
 
-  return <div ref={canvasRef}></div>;
+  return <div ref={canvasRef} id="canvasContainer"></div>;
 };
 
 export default VideoHeader;
+
+
+
+
+
