@@ -20,7 +20,7 @@ const VideoHeader: React.FC = () => {
       p.setup = () => {
         p.colorMode(p.HSB);
         p.smooth();
-        p.createCanvas(1200, 600);
+        p.createCanvas(p.windowWidth, p.windowHeight);
         degs = 360;
         nRadius = 1.300;
         outRadius = 321;
