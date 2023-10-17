@@ -1,3 +1,4 @@
+/* ⬇️boilerplate/misc⬇️ */ 
 * {
   box-sizing: border-box;
 }
@@ -14,6 +15,40 @@ h1 {
   font-weight: 800;
   font-size: 1.5rem;
 }
+
+/* ⬇️hero section⬇️ */  
+#canvasContainer {
+  width: 100%;
+  height: 100%;
+}
+
+#combinedSketch canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.video-header-container {
+  position: relative; /* This allows absolute positioning of children relative to this container */
+  height: 100vh;      /* Taking the full height of the viewport */
+}
+
+.overlay-text {
+  position: absolute; /* Position it over the canvas */
+  top: 50%;           /* Center it vertically */
+  left: 50%;          /* Center it horizontally */
+  transform: translate(-50%, -50%); /* Adjust for its own width and height to truly center it */
+  color: white;       /* Assuming you want white text, adjust as needed */
+  font-size: 32px;    /* Adjust size as needed */
+  z-index: 2;         /* Put it over the canvas */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); /* Optional: for better readability over the background */
+}
+
+
+
+
+
 
 #projects {
   margin-top: 2rem;
@@ -33,9 +68,4 @@ h1 {
 #projects a {
   color: blue;
   text-decoration: none;
-}
-
-#canvasContainer {
-  width: 100%;
-  height: 100%;
 }

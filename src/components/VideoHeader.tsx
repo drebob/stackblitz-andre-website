@@ -121,8 +121,14 @@ const VideoHeader: React.FC = () => {
     };
   }, []);
 
-  return <div ref={canvasRef} id="canvasContainer"></div>;
-};
+  return (
+    <div className="video-header-container">
+        <div ref={canvasRef} id="combinedSketch"></div>
+        <div className="overlay-text"><h1 className="name">Andre Hall-Rodrigues</h1></div>
+    </div>
+);
+}; 
+
 
 export default VideoHeader;
 
