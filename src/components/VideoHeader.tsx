@@ -127,7 +127,7 @@ const VideoHeader: React.FC = () => {
         <div className="overlay-text">
           <div className="name">Andre Hall-Rodrigues
           </div>
-          <div className="title">Web Designer & Develepor
+          <div className="title">Web Designer & Developer
           </div>
           <div className="description">I build accessible, inclusive products and digital experiences for the web.
           </div>        
