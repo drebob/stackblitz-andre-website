@@ -124,7 +124,14 @@ const VideoHeader: React.FC = () => {
   return (
     <div className="video-header-container">
         <div ref={canvasRef} id="combinedSketch"></div>
-        <div className="overlay-text"><h1 className="name">Andre Hall-Rodrigues</h1></div>
+        <div className="overlay-text">
+          <div className="name">Andre Hall-Rodrigues
+          </div>
+          <div className="title">Web Designer & Develepor
+          </div>
+          <div className="description">I build accessible, inclusive products and digital experiences for the web.
+          </div>        
+        </div>
     </div>
 );
 }; 

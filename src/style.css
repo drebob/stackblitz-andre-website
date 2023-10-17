@@ -37,16 +37,33 @@ h1 {
 .overlay-text {
   position: absolute; /* Position it over the canvas */
   top: 50%;           /* Center it vertically */
-  left: 50%;          /* Center it horizontally */
-  transform: translate(-50%, -50%); /* Adjust for its own width and height to truly center it */
+  left: 10%;          /* Center it horizontally */
+  color: white;       /* Assuming you want white text, adjust as needed */
+  font-size: 42px;    /* Adjust size as needed */
+  z-index: 2;         /* Put it over the canvas */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); /* Optional: for better readability over the background */
+}
+
+.name {
+  color: white;       /* Assuming you want white text, adjust as needed */
+  font-size: 52px;    /* Adjust size as needed */
+  z-index: 2;         /* Put it over the canvas */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); /* Optional: for better readability over the background */
+}
+
+.title {
   color: white;       /* Assuming you want white text, adjust as needed */
   font-size: 32px;    /* Adjust size as needed */
   z-index: 2;         /* Put it over the canvas */
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); /* Optional: for better readability over the background */
 }
 
-
-
+.description {
+  color: white;       /* Assuming you want white text, adjust as needed */
+  font-size: 26px;    /* Adjust size as needed */
+  z-index: 2;         /* Put it over the canvas */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); /* Optional: for better readability over the background */
+}
 
 
 
