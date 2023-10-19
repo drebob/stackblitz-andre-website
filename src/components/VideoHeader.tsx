@@ -122,9 +122,9 @@ const VideoHeader: React.FC = () => {
   }, []);
 
   return (
-    <div className="position-fixed w-100 h-100">
-            <div ref={canvasRef} id="combinedSketch"></div>
-        </div>
+    <div className="position-fixed w-100 h-100" style={{ zIndex: -1 }}>
+    <div ref={canvasRef} id="combinedSketch"></div>
+</div>
 );
 }; 
 

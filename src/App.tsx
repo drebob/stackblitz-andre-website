@@ -10,7 +10,7 @@ export const App: FC<{ name: string }> = ({ name }) => {
     <div className="App">
     <VideoHeader />
 
-    <div className="container-fluid position-absolute w-100 h-100">
+    <div className="container-fluid position-absolute w-100">
       <div className="row h-100">
         <div className="col-md-6 d-flex flex-column justify-content-center align-items-start p-5">
           <h1>Your Name</h1>
