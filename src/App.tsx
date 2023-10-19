@@ -10,7 +10,7 @@ export const App: FC<{ name: string }> = ({ name }) => {
     <div className="App">
     <VideoHeader />
 
-    <div className="container-fluid .max-w-screen-xl position-absolute w-100">
+    <div className="container-fluid max-w-screen-xl position-absolute w-100">
       <div className="row h-100">
         <div className="col-md-6 d-flex flex-column justify-content-center align-items-start p-5 sticky-top">
           <h1>Andre Hall-Rodrigues</h1>
