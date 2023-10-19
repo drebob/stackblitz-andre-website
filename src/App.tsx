@@ -10,7 +10,7 @@ export const App: FC<{ name: string }> = ({ name }) => {
     <div className="App">
     <VideoHeader />
 
-    <div className="container-fluid position-absolute w-100">
+    <div className="container-fluid .max-w-screen-xl position-absolute w-100">
       <div className="row h-100">
         <div className="col-md-6 d-flex flex-column justify-content-center align-items-start p-5 sticky-top">
           <h1>Andre Hall-Rodrigues</h1>
@@ -23,7 +23,7 @@ export const App: FC<{ name: string }> = ({ name }) => {
          </p> 
          <p>My main focus these days is designing and coding front-end solutions for Fairytale Brownies. I am the only web designer for Brownies.com, and the only front-end developer - although I <i>do</i> get roped into doing many things :). 
          </p>
-         <p>When I’m not at the computer, I’m usually rock climbing, hanging out with my wife and two cats, or running around Hyrule searching for Korok seeds
+         <p>When I’m not at the computer, I’m usually swimming, hanging out with my friends/dog, or rock climbing. 
          </p>
           {/* ... */}
         </div>
