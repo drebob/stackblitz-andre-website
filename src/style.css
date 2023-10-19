@@ -18,9 +18,10 @@ html {
 }
 
 .container0 {
-  max-width: 1280px;
+  width: 1280px!important;
   padding-left: 6rem !important;
   padding-right: 6rem !important;
+  margin:auto;
 }
 
 .card-cont {
