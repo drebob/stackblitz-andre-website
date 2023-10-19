@@ -1,18 +1,8 @@
 import { FC } from 'react';
-
 import VideoHeader from './components/VideoHeader';
 
-import { Projects } from './components/Projects';
-
-
-
-
-
 import './style.css';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
 
 export const App: FC<{ name: string }> = ({ name }) => {
 
@@ -21,8 +11,6 @@ export const App: FC<{ name: string }> = ({ name }) => {
     <div className="App">
 
       <VideoHeader />
-
-
 
       <div className="container-fluid position-absolute w-100 container0">
 
@@ -41,8 +29,6 @@ export const App: FC<{ name: string }> = ({ name }) => {
             <div className="button">experience</div>
 
             <div className="button">projects</div>
-
-
 
           </div>
 
@@ -70,28 +56,16 @@ export const App: FC<{ name: string }> = ({ name }) => {
 
                   <p>Maintain the various websites using Visual Studio and Wordpress - Redesign homepge bi-weekly(minimum) - Redesign of existing highly trafficked pages (homepage, product detail pages, product category pages with filters) - acting as point of contact for back-end programmer contractors - rapidy color-correcting and photoshopping high volumes of product shots - deploying, testing, debugging  </p>
 
-
-
                 </div>
-
               </div>
-
             </div>
-
             <div className="card-cont">
-
               <div className="row">
-
                 <div className="col-md-3"><p className="smaller">2021 - Present</p></div>
-
                 <div className="col-md-9">I was initiated into the world of graphic and web design many moons ago when I decided to try my hand at customizing my myspace profile. Since then, I've had the pleasure of designing and building websites for a commercial real estate boutique, a drone photography business, a 100 year-old accordion manufacturer, and a huge corporation owned by one of the wealthiest men in America.
-
                 </div>
-
               </div>
-
             </div>
-
             <div className="card-cont">
 
               <div className="row">
