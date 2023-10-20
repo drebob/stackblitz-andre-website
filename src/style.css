@@ -29,6 +29,8 @@ html {
   border: 1px solid black;
   border-radius: 10px;
   margin: 1rem 0;
+  background-color: #ffffff95!important;
+    backdrop-filter: blur(9.5px) brightness(1)!important;
 }
 
 .col-md-6 {
