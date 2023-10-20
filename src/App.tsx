@@ -55,6 +55,7 @@ export const App: FC<{ name: string }> = ({ name }) => {
 
   <div className="col-md-3"><p className="smaller">April 2022 - Present</p></div>
 
+
   <div className="col-md-9"><p>Web Designer/Developer | Fairytale Brownies</p>
 
     <p>Maintain the various websites using Visual Studio and Wordpress - Redesign homepge bi-weekly(minimum) - Redesign of existing highly trafficked pages (homepage, product detail pages, product category pages with filters) - acting as point of contact for back-end programmer contractors - rapidy color-correcting and photoshopping high volumes of product shots - deploying, testing, debugging  </p>
@@ -113,6 +114,7 @@ Communicating with clients regarding their needs (Shotlists, highlighted informa
   <div className="col-md-9"><p>Graphic Designer | Retail Investment Group LLC</p>
 
     <p>Creating new graphic, web and print assets for marketing
+
 Rapidly completing Offering Memorandums (Within 24-48 hours)
 Creating videos to advertise commercial properties
 - </p>
@@ -124,6 +126,7 @@ Creating videos to advertise commercial properties
 
 
 </div>
+
 
 </div>
 </div>
