@@ -24,110 +24,108 @@ export const App: FC<{ name: string }> = ({ name }) => {
 
             <p>I specialize in digital design utilizing tools like the Adobe Suite and AI & modern front-end frameworks and libraries such as bootstrap, React, jquery and more.</p>
 
-            <div className="button">about</div>
+            <div className="button"><a href="#about">about</a></div>
 
-            <div className="button">experience</div>
+<div className="button"><a href="#experience">experience</a></div>
 
-            <div className="button">projects</div>
+<div className="button">projects</div>
 
-          </div>
+</div>
 
-          <div className="col-md-6 overflow-auto p-5">
+<div className="col-md-6 overflow-auto p-5" id="about">
 
-            <p>I was initiated into the world of graphic and web design many moons ago when I decided to try my hand at customizing my myspace profile. Since then, I've had the pleasure of designing and building websites for a commercial real estate boutique, a drone photography business, a 100 year-old accordion manufacturer, and a huge corporation owned by one of the wealthiest men in America.
+<p>I was initiated into the world of graphic and web design many moons ago when I decided to try my hand at customizing my myspace profile. 
+  Since then, I've had the pleasure of designing and building websites for a <a href="https://www.retail1031.com/" target="_blank">commercial 
+  real estate boutique</a>, <a href="#" target="_blank">drone photography business</a>, <a href="https://www.petosa.com/" target="_blank">an 100 year-old accordion manufacturer</a>,
+   and a <a href="https://www.berkadia.com/" target="_blank">large commercial real estate company</a> owned by one of the wealthiest men in America.
 
-            </p>
+</p>
 
-            <p>My main focus these days is designing and coding front-end solutions for Fairytale Brownies. I am the only web designer for Brownies.com, and the only front-end developer - although I <i>do</i> get roped into doing many things :).
+<div className="card-cont">
 
-            </p>
+<div className="row" id="experience">
 
-            <p>When I’m not at the computer, I’m usually swimming, hanging out with my friends and dog, or playing piano.
+<div className="col-md-3"><p className="smaller">April 2022 - Present</p></div>
 
-            </p>
 
-            <div className="card-cont">
+<div className="col-md-9"><p>Web Designer/Developer | Fairytale Brownies</p>
 
-              <div className="row">
+<p>Maintain the various websites using Visual Studio and Wordpress - Redesign homepge bi-weekly(minimum) - Redesign of existing highly trafficked pages (homepage, product detail pages, product category pages with filters) - acting as point of contact for back-end programmer contractors - rapidy color-correcting and photoshopping high volumes of product shots - deploying, testing, debugging  </p>
 
-                <div className="col-md-3"><p className="smaller">April 2022 - Present</p></div>
+</div>
+</div>
+</div>
+<div className="card-cont">
 
-                <div className="col-md-9"><p>Web Designer/Developer | Fairytale Brownies</p>
+<div className="row">
 
-                  <p>Maintain the various websites using Visual Studio and Wordpress - Redesign homepge bi-weekly(minimum) - Redesign of existing highly trafficked pages (homepage, product detail pages, product category pages with filters) - acting as point of contact for back-end programmer contractors - rapidy color-correcting and photoshopping high volumes of product shots - deploying, testing, debugging  </p>
+<div className="col-md-3"><p className="smaller">Oct 2020 - Nov 2022</p></div>
 
-                </div>
-              </div>
-            </div>
-            <div className="card-cont">
+<div className="col-md-9"><p>Web Designer/Developer | Petosa Accordions</p>
 
-              <div className="row">
+<p>Maintain the various websites using Visual Studio and Wordpress - Redesign homepge bi-weekly(minimum) - Redesign of existing highly trafficked pages (homepage, product detail pages, product category pages with filters) - acting as point of contact for back-end programmer contractors - rapidy color-correcting and photoshopping high volumes of product shots - deploying, testing, debugging  </p>
 
-                <div className="col-md-3"><p className="smaller">Oct 2020 - Nov 2022</p></div>
+</div>
+</div>
+</div>
+<div className="card-cont">
 
-                <div className="col-md-9"><p>Web Designer/Developer | Petosa Accordions</p>
+<div className="row">
 
-                  <p>Maintain the various websites using Visual Studio and Wordpress - Redesign homepge bi-weekly(minimum) - Redesign of existing highly trafficked pages (homepage, product detail pages, product category pages with filters) - acting as point of contact for back-end programmer contractors - rapidy color-correcting and photoshopping high volumes of product shots - deploying, testing, debugging  </p>
+<div className="col-md-3"><p className="smaller">August 2019 - Jan 2020</p></div>
 
-                </div>
-              </div>
-            </div>
-            <div className="card-cont">
+<div className="col-md-9"><p>Graphic Designer | Berkadia</p>
 
-              <div className="row">
+<p>Design marking packages for commercial properties - design websites for specific properties and sales teams - collaborate with project managers, realtors, and other designers - create maps and other materials relevant to a prospective buyer  </p>
 
-                <div className="col-md-3"><p className="smaller">August 2019 - Jan 2020</p></div>
+</div>
+</div>
+</div>
 
-                <div className="col-md-9"><p>Graphic Designer | Berkadia</p>
+<div className="card-cont">
 
-                  <p>Design marking packages for commercial properties - design websites for specific properties and sales teams - collaborate with project managers, realtors, and other designers - create maps and other materials relevant to a prospective buyer  </p>
+<div className="row">
 
-                </div>
-              </div>
-            </div>
-            
-            <div className="card-cont">
+<div className="col-md-3"><p className="smaller">Dec 2018 - Aug 2019</p></div>
 
-              <div className="row">
+<div className="col-md-9"><p>Graphic Design / Marketing / Drone Operations | Phoenix UAV LLC</p>
 
-                <div className="col-md-3"><p className="smaller">Dec 2018 - Aug 2019</p></div>
-
-                <div className="col-md-9"><p>Graphic Design / Marketing / Drone Operations | Phoenix UAV LLC</p>
-
-                  <p>Creating a brand identity for the company (Logo, website, general aesthetic)
+<p>Creating a brand identity for the company (Logo, website, general aesthetic)
 Editing drone videos in Adobe Premiere and After Effects to meet client demands
 Communicating with clients regarding their needs (Shotlists, highlighted information, etc.)</p>
 -
-                </div>
-              </div>
-            </div>
+</div>
+</div>
+</div>
 <div className="card-cont">
 
-              <div className="row">
+<div className="row">
 
-                <div className="col-md-3"><p className="smaller">Sep 2016 - July 2018</p></div>
+<div className="col-md-3"><p className="smaller">Sep 2016 - July 2018</p></div>
 
-                <div className="col-md-9"><p>Graphic Designer | Retail Investment Group LLC</p>
+<div className="col-md-9"><p>Graphic Designer | Retail Investment Group LLC</p>
 
-                  <p>Creating new graphic, web and print assets for marketing
+<p>Creating new graphic, web and print assets for marketing
+
 Rapidly completing Offering Memorandums (Within 24-48 hours)
 Creating videos to advertise commercial properties
 - </p>
 
-                </div>
-              </div>
-            </div>
-            
-              
-            
-          </div>
+</div>
+</div>
+</div>
 
-        </div>
-        </div>
-      </div>
 
-    </div>
 
-  );
+</div>
+
+
+</div>
+</div>
+</div>
+
+</div>
+
+);
 
 }
