@@ -50,7 +50,7 @@ export const App: FC<{ name: string }> = ({ name }) => {
 
               <div className="row">
 
-                <div className="col-md-3"><p className="smaller">2022 - Present</p></div>
+                <div className="col-md-3"><p className="smaller">April 2022 - Present</p></div>
 
                 <div className="col-md-9"><p>Web Designer/Developer | Fairytale Brownies</p>
 
@@ -60,9 +60,15 @@ export const App: FC<{ name: string }> = ({ name }) => {
               </div>
             </div>
             <div className="card-cont">
+
               <div className="row">
-                <div className="col-md-3"><p className="smaller">2021 - Present</p></div>
-                <div className="col-md-9">I was initiated into the world of graphic and web design many moons ago when I decided to try my hand at customizing my myspace profile. Since then, I've had the pleasure of designing and building websites for a commercial real estate boutique, a drone photography business, a 100 year-old accordion manufacturer, and a huge corporation owned by one of the wealthiest men in America.
+
+                <div className="col-md-3"><p className="smaller">Oct 2020 - Nov 2022</p></div>
+
+                <div className="col-md-9"><p>Web Designer/Developer | Petosa Accordions</p>
+
+                  <p>Maintain the various websites using Visual Studio and Wordpress - Redesign homepge bi-weekly(minimum) - Redesign of existing highly trafficked pages (homepage, product detail pages, product category pages with filters) - acting as point of contact for back-end programmer contractors - rapidy color-correcting and photoshopping high volumes of product shots - deploying, testing, debugging  </p>
+
                 </div>
               </div>
             </div>
@@ -70,30 +76,50 @@ export const App: FC<{ name: string }> = ({ name }) => {
 
               <div className="row">
 
-                <div className="col-md-3"><p className="smaller">2021 - Present</p></div>
+                <div className="col-md-3"><p className="smaller">August 2019 - Jan 2020</p></div>
 
-                <div className="col-md-9">I was initiated into the world of graphic and web design many moons ago when I decided to try my hand at customizing my myspace profile. Since then, I've had the pleasure of designing and building websites for a commercial real estate boutique, a drone photography business, a 100 year-old accordion manufacturer, and a huge corporation owned by one of the wealthiest men in America.
+                <div className="col-md-9"><p>Graphic Designer | Berkadia</p>
+
+                  <p>Design marking packages for commercial properties - design websites for specific properties and sales teams - collaborate with project managers, realtors, and other designers - create maps and other materials relevant to a prospective buyer  </p>
 
                 </div>
-
               </div>
-
             </div>
-
+            
             <div className="card-cont">
 
               <div className="row">
 
-                <div className="col-md-3"><p className="smaller">2021 - Present</p></div>
+                <div className="col-md-3"><p className="smaller">Dec 2018 - Aug 2019</p></div>
 
-                <div className="col-md-9">I was initiated into the world of graphic and web design many moons ago when I decided to try my hand at customizing my myspace profile. Since then, I've had the pleasure of designing and building websites for a commercial real estate boutique, a drone photography business, a 100 year-old accordion manufacturer, and a huge corporation owned by one of the wealthiest men in America.
+                <div className="col-md-9"><p>Graphic Design / Marketing / Drone Operations | Phoenix UAV LLC</p>
+
+                  <p>Creating a brand identity for the company (Logo, website, general aesthetic)
+Editing drone videos in Adobe Premiere and After Effects to meet client demands
+Communicating with clients regarding their needs (Shotlists, highlighted information, etc.)</p>
+-
+                </div>
+              </div>
+            </div>
+<div className="card-cont">
+
+              <div className="row">
+
+                <div className="col-md-3"><p className="smaller">Sep 2016 - July 2018</p></div>
+
+                <div className="col-md-9"><p>Graphic Designer | Retail Investment Group LLC</p>
+
+                  <p>Creating new graphic, web and print assets for marketing
+Rapidly completing Offering Memorandums (Within 24-48 hours)
+Creating videos to advertise commercial properties
+- </p>
 
                 </div>
-
               </div>
-
             </div>
-
+            
+              
+            
           </div>
 
         </div>
