@@ -16,23 +16,25 @@ export const App: FC<{ name: string }> = ({ name }) => {
         <div className="container0">
         <div className="row h-100">
 
-          <div className="col-md-6 d-flex flex-column justify-content-center align-items-start p-5 sticky-top">
-
+          <div className="col-md-6 d-flex flex-column justify-content-top align-items-start p-5 sticky-top">
+          <div className="container1">
             <h1 className="header-text">Andre Hall-Rodrigues</h1>
 
             <h3 className="header-text">Web Developer/Designer</h3>
 
             <p className="header-text">Expert in digital design with Adobe Suite and AI, along with modern front-end technologies like Bootstrap, React, and jQuery.</p>
 
-            <div className="button"><a href="#about">about</a></div>
+<div className="button grow-on-hover"><a href="#about">about</a></div>
 
-<div className="button"><a href="#experience">experience</a></div>
+<div className="button grow-on-hover"><a href="#experience">experience</a></div>
 
-<div className="button">projects</div>
+<div className="button grow-on-hover"><a href="#">projects</a></div>
 
+</div>
 </div>
 
 <div className="col-md-6 overflow-auto p-5" id="about">
+  <div className="container1">
 <div className="card-cont">
 <p>I was initiated into the world of graphic and web design many moons ago when I decided to try my hand at customizing my myspace profile. 
   Since then, I've had the pleasure of designing and building websites for a <a href="https://www.retail1031.com/" target="_blank">commercial 
@@ -125,7 +127,7 @@ Creating videos to advertise commercial properties
 </div>
 
 </div>
-
+</div>
 );
 
 }
