@@ -51,3 +51,13 @@ h1 {
   font-weight: 800;
   font-size: 1.5rem;
 }
+
+.header-text {
+    font-family: 'Arial', sans-serif;
+    font-weight: medium;
+    color: #ffffff;
+    background-color: #000000;  /* Highlight Color */
+    padding: 5px 10px;  /* Adjusts the size of the highlight */
+    border-radius: 3px;  /* Rounds the edges of the highlight */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);  /* Optional: Adds a subtle shadow */
+}

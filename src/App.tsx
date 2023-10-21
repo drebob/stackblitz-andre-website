@@ -18,11 +18,11 @@ export const App: FC<{ name: string }> = ({ name }) => {
 
           <div className="col-md-6 d-flex flex-column justify-content-center align-items-start p-5 sticky-top">
 
-            <h1>Andre Hall-Rodrigues</h1>
+            <h1 className="header-text">Andre Hall-Rodrigues</h1>
 
-            <h3>Web Developer/Designer</h3>
+            <h3 className="header-text">Web Developer/Designer</h3>
 
-            <p>I specialize in digital design utilizing tools like the Adobe Suite and AI & modern front-end frameworks and libraries such as bootstrap, React, jquery and more.</p>
+            <p className="header-text">Expert in digital design with Adobe Suite and AI, along with modern front-end technologies like Bootstrap, React, and jQuery.</p>
 
             <div className="button"><a href="#about">about</a></div>
 
@@ -33,14 +33,14 @@ export const App: FC<{ name: string }> = ({ name }) => {
 </div>
 
 <div className="col-md-6 overflow-auto p-5" id="about">
-
+<div className="card-cont">
 <p>I was initiated into the world of graphic and web design many moons ago when I decided to try my hand at customizing my myspace profile. 
   Since then, I've had the pleasure of designing and building websites for a <a href="https://www.retail1031.com/" target="_blank">commercial 
   real estate boutique</a>, <a href="#" target="_blank">drone photography business</a>, <a href="https://www.petosa.com/" target="_blank">an 100 year-old accordion manufacturer</a>,
    and a <a href="https://www.berkadia.com/" target="_blank">large commercial real estate company</a> owned by one of the wealthiest men in America.
 
 </p>
-
+</div>
 <div className="card-cont">
 
 <div className="row" id="experience">
