@@ -1,13 +1,23 @@
-import * as React from 'react';
+import React, { useRef } from 'react';
 
-export const Skills: React.FC = () => (
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>React & Redux</li>
-      <li>TypeScript</li>
-      <li>Node.js</li>
-      {/* Add other skills as needed */}
-    </ul>
-  </section>
-);
+const ScrollButtons = () => {
+    const scrollTo = (selector) => {
+        const target = document.querySelector(selector);
+        const offset = parseInt(getComputedStyle(target).fontSize) * 11;  // 6rem offset
+        const position = target.getBoundingClientRect().top + window.scrollY - offset;
+
+        window.scrollTo({
+            top: position,
+            behavior: 'smooth'
+        });
+    };
+
+    return (
+        <div>
+            <div className="button grow-on-hover" onClick={() => scrollTo('#experience')}>experience</div>
+            <div className="button grow-on-hover" onClick={() => scrollTo('#projects')}>projects</div>
+        </div>
+    );
+}
+
+export default ScrollButtons;

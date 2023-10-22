@@ -3,6 +3,7 @@ import VideoHeader from './components/VideoHeader';
 
 import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ScrollButtons from './components/Skills';
 
 export const App: FC<{ name: string }> = ({ name }) => {
 
@@ -24,18 +25,17 @@ export const App: FC<{ name: string }> = ({ name }) => {
 
             <p className="header-text description">Expert in digital design with Adobe Suite and AI, along with modern front-end technologies like Bootstrap, React, and jQuery.</p>
 
+            
 <div className="button grow-on-hover"><a href="#about">about</a></div>
 
-<div className="button grow-on-hover"><a href="#experience">experience</a></div>
-
-<div className="button grow-on-hover"><a href="#">projects</a></div>
+<ScrollButtons />
 
 </div>
 </div>
 
 <div className="col-md-6 overflow-auto p-5" id="about">
   <div className="container1">
-<div className="card-cont description">
+<div className="card-cont description b">
 <p>I was initiated into the world of graphic and web design many moons ago when I decided to try my hand at customizing my myspace profile. 
   Since then, I've had the pleasure of designing and building websites for a <a href="https://www.retail1031.com/" target="_blank">commercial 
   real estate boutique</a>, <a href="#" target="_blank">drone photography business</a>, <a href="https://www.petosa.com/" target="_blank">an 100 year-old accordion manufacturer</a>,
@@ -46,7 +46,7 @@ export const App: FC<{ name: string }> = ({ name }) => {
          <p>When I’m not at the computer, I’m usually swimming, hanging out with my friends/dog, playing piano, playing video games, checking out new tech, or rock climbing. 
          </p>
 </div>
-<div className="card-cont">
+<div className="card-cont ovo">
 
 <div className="row" id="experience">
 
@@ -60,7 +60,7 @@ export const App: FC<{ name: string }> = ({ name }) => {
 </div>
 </div>
 </div>
-<div className="card-cont">
+<div className="card-cont ovo">
 
 <div className="row">
 
@@ -73,7 +73,7 @@ export const App: FC<{ name: string }> = ({ name }) => {
 </div>
 </div>
 </div>
-<div className="card-cont">
+<div className="card-cont ovo">
 
 <div className="row">
 
@@ -87,7 +87,7 @@ export const App: FC<{ name: string }> = ({ name }) => {
 </div>
 </div>
 
-<div className="card-cont">
+<div className="card-cont ovo">
 
 <div className="row">
 
@@ -102,7 +102,7 @@ Communicating with clients regarding their needs (Shotlists, highlighted informa
 </div>
 </div>
 </div>
-<div className="card-cont">
+<div className="card-cont ovo">
 
 <div className="row">
 

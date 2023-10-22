@@ -61,17 +61,19 @@ h1 {
 }
 
 .button {
-  
-
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500; 
+letter-spacing:2px;
 }
-
+.button a {color:#333;
+}
 a {
   text-decoration: none!important;
 }
 
 .container1 {
   padding:1rem 2rem!important;
-  margin:6rem 0!important;
+  margin:4rem 0!important;
   background-color: #ffffff95!important;
   -webkit-backdrop-filter: blur(3.5px) brightness(1)!important;
   backdrop-filter: blur(3.5px) brightness(1)!important;
@@ -93,4 +95,24 @@ a {
 .description {
   font-family: 'Ovo', serif;
   font-weight: 600;
+}
+
+.mont{
+  font-family:'Montserrat', sans-serif;
+}
+
+.ovo {
+  font-family: 'Ovo', serif;
+  font-weight: 600;
+}
+
+.about {
+  font-family:'Montserrat', sans-serif;
+  letter-spacing:.01rem;
+  font-weight:400
+}
+
+.b
+{
+padding-bottom:6rem;
 }
