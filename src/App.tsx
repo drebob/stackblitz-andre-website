@@ -18,11 +18,11 @@ export const App: FC<{ name: string }> = ({ name }) => {
 
           <div className="col-md-6 d-flex flex-column justify-content-top align-items-start p-5 sticky-top">
           <div className="container1">
-            <h1 className="header-text">Andre Hall-Rodrigues</h1>
+            <h1 className="header-text name">Andre Hall-Rodrigues</h1>
 
-            <h3 className="header-text">Web Developer/Designer</h3>
+            <h3 className="header-text title">Web Developer/Designer</h3>
 
-            <p className="header-text">Expert in digital design with Adobe Suite and AI, along with modern front-end technologies like Bootstrap, React, and jQuery.</p>
+            <p className="header-text description">Expert in digital design with Adobe Suite and AI, along with modern front-end technologies like Bootstrap, React, and jQuery.</p>
 
 <div className="button grow-on-hover"><a href="#about">about</a></div>
 

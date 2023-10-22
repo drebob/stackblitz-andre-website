@@ -52,15 +52,7 @@ h1 {
   font-size: 1.5rem;
 }
 
-.header-text {
-    font-family: 'Arial', sans-serif;
-    font-weight: medium;
-    color: #ffffff;
-    background-color: #000000;  /* Highlight Color */
-    padding: 5px 10px;  /* Adjusts the size of the highlight */
-    border-radius: 3px;  /* Rounds the edges of the highlight */
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);  /* Optional: Adds a subtle shadow */
-}
+
 
 .grow-on-hover {
   transition: transform 0.3s;  /* smooth transition */
@@ -81,4 +73,19 @@ a {
 
 .container1 {
   padding:6rem 0!important;
+}
+
+.name {
+  font-family:'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 2.5rem
+}
+.title {
+  font-family:'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem
+}
+.description {
+  font-family:'Montserrat', sans-serif;
+  font-weight: 300;
 }
