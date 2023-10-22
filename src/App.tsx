@@ -43,7 +43,7 @@ export const App: FC<{ name: string }> = ({ name }) => {
 </p>
 <p>My main focus these days is designing and coding front-end solutions for Fairytale Brownies. I am the only web designer for Brownies.com, and the only front-end developer - although I <i>do</i> get roped into doing many things :). 
          </p>
-         <p>When I’m not at the computer, I’m usually swimming, hanging out with my friends/dog, or rock climbing. 
+         <p>When I’m not at the computer, I’m usually swimming, hanging out with my friends/dog, playing piano, playing video games, checking out new tech, or rock climbing. 
          </p>
 </div>
 <div className="card-cont">
