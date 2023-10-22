@@ -35,13 +35,16 @@ export const App: FC<{ name: string }> = ({ name }) => {
 
 <div className="col-md-6 overflow-auto p-5" id="about">
   <div className="container1">
-<div className="card-cont">
-<p className="description">I was initiated into the world of graphic and web design many moons ago when I decided to try my hand at customizing my myspace profile. 
+<div className="card-cont description">
+<p>I was initiated into the world of graphic and web design many moons ago when I decided to try my hand at customizing my myspace profile. 
   Since then, I've had the pleasure of designing and building websites for a <a href="https://www.retail1031.com/" target="_blank">commercial 
   real estate boutique</a>, <a href="#" target="_blank">drone photography business</a>, <a href="https://www.petosa.com/" target="_blank">an 100 year-old accordion manufacturer</a>,
    and a <a href="https://www.berkadia.com/" target="_blank">large commercial real estate company</a> owned by one of the wealthiest men in America.
-
 </p>
+<p>My main focus these days is designing and coding front-end solutions for Fairytale Brownies. I am the only web designer for Brownies.com, and the only front-end developer - although I <i>do</i> get roped into doing many things :). 
+         </p>
+         <p>When I’m not at the computer, I’m usually swimming, hanging out with my friends/dog, or rock climbing. 
+         </p>
 </div>
 <div className="card-cont">
 
