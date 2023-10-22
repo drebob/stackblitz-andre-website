@@ -26,13 +26,11 @@ html {
 
 .card-cont {
   padding: 1rem 2rem;
-  border: 1px solid black;
+  
   border-radius: 10px;
   margin: 1rem 0;
   padding: 1rem 2rem;
-    background-color: #ffffff95!important;
-    -webkit-backdrop-filter: blur(9.5px) brightness(1)!important;
-    backdrop-filter: blur(9.5px) brightness(1)!important;
+   
 }
 
 .col-md-6 {
@@ -64,7 +62,7 @@ h1 {
 
 .button {
   
-  border-bottom: 4px solid blue;
+
 }
 
 a {
@@ -72,18 +70,24 @@ a {
 }
 
 .container1 {
-  padding:6rem 0!important;
+  padding:6rem 1rem!important;
+  background-color: #ffffff95!important;
+  -webkit-backdrop-filter: blur(3.5px) brightness(1)!important;
+  backdrop-filter: blur(3.5px) brightness(1)!important;
+  border-radius:10px
 }
 
 .name {
   font-family:'Montserrat', sans-serif;
   font-weight: 800;
-  font-size: 2.5rem
+  font-size: 3.2rem;
+  letter-spacing:.4rem;
 }
 .title {
   font-family:'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 1.5rem
+  font-size: 1.5rem;
+  letter-spacing:.4rem;
 }
 .description {
   font-family: 'Ovo', serif;
