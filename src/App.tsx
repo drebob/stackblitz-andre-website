@@ -13,7 +13,7 @@ export const App: FC<{ name: string }> = ({ name }) => {
 
       <VideoHeader />
 
-      <div className="container-fluid position-absolute w-100">
+      <div className="container-fluid position-absolute w-100 content-hidden" id="pageContent">
         <div className="container0">
         <div className="row h-100">
 
