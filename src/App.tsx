@@ -13,12 +13,12 @@ export const App: FC<{ name: string }> = ({ name }) => {
 
       <VideoHeader />
 
-      <div className="container-fluid position-absolute w-100 content-hidden" id="pageContent">
+      <div className="container-fluid position-absolute w-100">
         <div className="container0">
         <div className="row h-100">
 
           <div className="col-md-6 d-flex flex-column justify-content-top align-items-start p-5 sticky-top">
-          <div className="container1">
+          <div className="container1 content-hidden" id="pageContent">
             <h1 className="header-text name">Andre Hall-Rodrigues</h1>
 
             <h3 className="header-text title">Web Developer/Designer</h3>
