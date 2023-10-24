@@ -3,7 +3,7 @@ import React, { useRef } from 'react';
 const ScrollButtons = () => {
     const scrollTo = (selector) => {
         const target = document.querySelector(selector);
-        const offset = parseInt(getComputedStyle(target).fontSize) * 11;  // 6rem offset
+        const offset = parseInt(getComputedStyle(target).fontSize) * 9.5;  // 6rem offset
         const position = target.getBoundingClientRect().top + window.scrollY - offset;
 
         window.scrollTo({

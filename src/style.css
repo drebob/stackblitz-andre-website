@@ -17,24 +17,37 @@ html {
   height: 100%;
 }
 
+.about-cont{
+  border-radius: 10px;
+  margin: 0rem 0;
+  padding: .5rem 2rem;
+}
+
 .container0 {
   width: 1280px!important;
   padding-left: 2rem !important;
   padding-right: 2rem !important;
   margin:auto;
-  transition: opacity 1s; 
+  transition: opacity 5s; 
 }
 
 .card-cont {
   padding: 1rem 2rem;
-  
   border-radius: 10px;
   margin: 1rem 0;
   padding: 1rem 2rem;
-   
 }
 
 .col-md-6 {
+  height: 100vh;
+  /* Make each column occupy the full viewport height */
+}
+
+.col-md-7 {
+  height: 100vh;
+  /* Make each column occupy the full viewport height */
+}
+.col-md-5 {
   height: 100vh;
   /* Make each column occupy the full viewport height */
 }
@@ -77,7 +90,7 @@ a {
 }
 
 .container1 {
-  padding:1rem 2rem!important;
+  padding:2rem 2rem!important;
   margin:4rem 0!important;
   background-color: #ffffff95!important;
   -webkit-backdrop-filter: blur(3.5px) brightness(1)!important;
@@ -119,5 +132,5 @@ a {
 
 .b
 {
-padding-bottom:6rem;
+padding-bottom:6.3rem;
 }

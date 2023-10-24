@@ -44,7 +44,7 @@ const VideoHeader: React.FC = () => {
                 degs = 360;
                 nRadius = 1.300;
                 outRadius = 321;
-                totalTweens = 27.0;
+                totalTweens = 187.0;
                 inBetween = 0.0;
                 circleNumber = 1;
                 p.background(255);
@@ -68,7 +68,7 @@ const VideoHeader: React.FC = () => {
 
             p.draw = () => {
                 if (initialAnimation) {
-                    masterX += 3.0; // Move 3 pixels to the right every frame
+                    masterX += 9.0; // Move 3 pixels to the right every frame
                     if (masterX > p.width) {
                         initialAnimation = false;
                         showContent();  // Make the actual content visible
@@ -79,17 +79,23 @@ const VideoHeader: React.FC = () => {
                     masterY = p.mouseY;
                 }
 
-                if (inBetween < totalTweens && circleNumber + 1 < models) {
-                    let hybridCircle = Array(degs).fill(0);
-                    hybridCircle = doInterpolate(radii[circleNumber], radii[circleNumber + 1], inBetween / totalTweens);
-                    doSimpleOutline(hybridCircle);
-                    inBetween++;
-                } else {
-                    if (circleNumber + 1 < models) {
-                        circleNumber++;
-                        inBetween = 0;
+                const circlesPerFrame = 15;  // adjust this value as you see fit
+
+                for (let c = 0; c < circlesPerFrame; c++) {
+                    if (inBetween < totalTweens && circleNumber + 1 < models) {
+                        let hybridCircle = Array(degs).fill(0);
+                        hybridCircle = doInterpolate(radii[circleNumber], radii[circleNumber + 1], inBetween / totalTweens);
+                        doSimpleOutline(hybridCircle);
+                        inBetween++;
+                    } else {
+                        if (circleNumber + 1 < models) {
+                            circleNumber++;
+                            inBetween = 0;
+                        }
                     }
                 }
+                
+                
             };
 
             const doInterpolate = (cOne, cTwo, beTwixt) => {
@@ -112,7 +118,7 @@ const VideoHeader: React.FC = () => {
             const doDrawCircle = (xPos, yPos, ptRad) => {
                 p.push();
                 p.translate(xPos, yPos);
-                p.rotate(p.radians(p.frameCount * 0.95125));
+                p.rotate(p.radians(p.frameCount * .45125));
                 let col = p.color(Math.round(p.map(xPos, 0, p.width, 80, 255)), 255, 180);
                 p.stroke(col);
                 p.beginShape();

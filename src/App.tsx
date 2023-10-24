@@ -17,7 +17,7 @@ export const App: FC<{ name: string }> = ({ name }) => {
         <div className="container0 content-hidden" id="pageContent">
         <div className="row h-100">
 
-          <div className="col-md-6 d-flex flex-column justify-content-top align-items-start p-5 sticky-top">
+          <div className="col-md-5 d-flex flex-column justify-content-top align-items-start p-5 sticky-top">
           <div className="container1">
             <h1 className="header-text name">Andre Hall-Rodrigues</h1>
 
@@ -33,9 +33,9 @@ export const App: FC<{ name: string }> = ({ name }) => {
 </div>
 </div>
 
-<div className="col-md-6 overflow-auto p-5" id="about">
+<div className="col-md-7 overflow-auto p-5" id="about">
   <div className="container1">
-<div className="card-cont description b">
+<div className="about-cont description b">
 <p>I was initiated into the world of graphic and web design many moons ago when I decided to try my hand at customizing my myspace profile. 
   Since then, I've had the pleasure of designing and building websites for a <a href="https://www.retail1031.com/" target="_blank">commercial 
   real estate boutique</a>, <a href="#" target="_blank">drone photography business</a>, <a href="https://www.petosa.com/" target="_blank">an 100 year-old accordion manufacturer</a>,
