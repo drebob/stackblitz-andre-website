@@ -152,9 +152,7 @@ const VideoHeader: React.FC = () => {
     return (
         <div className="position-fixed w-100 h-100" style={{ zIndex: -1 }}>
             <div ref={canvasRef} id="combinedSketch"></div>
-            <div id="pageContent" className="content-hidden">
-                {/* All your page content goes here */}
-            </div>
+            
         </div>
     );
 };
