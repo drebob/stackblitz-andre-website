@@ -3,6 +3,16 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Glancyr';
+  src: local('Glancyr'), local('Glancyr-Regular'),
+       url('/fonts/Glancyr.otf') format('otf'),
+       url('/fonts/Glancyr.woff') format('woff'),
+       url('/fonts/Glancyr.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body,
 html {
   overflow: auto;
@@ -24,7 +34,7 @@ html {
 }
 
 .container0 {
-  width: 1280px!important;
+  max-width: 1280px!important;
   padding-left: 2rem !important;
   padding-right: 2rem !important;
   margin:auto;
@@ -112,7 +122,7 @@ a {
   letter-spacing:.4rem;
 }
 .description {
-  font-family: 'Ovo', serif;
+  font-family: 'Glancyr', Arial, sans-serif;
   font-weight: 600;
 }
 
@@ -120,10 +130,6 @@ a {
   font-family:'Montserrat', sans-serif;
 }
 
-.ovo {
-  font-family: 'Ovo', serif;
-  font-weight: 600;
-}
 
 .about {
   font-family:'Montserrat', sans-serif;
