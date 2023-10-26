@@ -46,11 +46,11 @@ export const App: FC<{ name: string }> = ({ name }) => {
          <p>When I’m not at the computer, I’m usually swimming, hanging out with my friends/dog, playing piano, playing video games, checking out new tech, or rock climbing. 
          </p>
 </div>
-<div className="card-cont ovo">
+<div className="card-cont mont">
 
 <div className="row" id="experience">
 
-<div className="col-md-3"><p className="smaller">April 2022 - Present</p></div>
+<div className="col-md-3 duration"><p className="smaller">APRIL'22 - PRESENT</p></div>
 
 
 <div className="col-md-9"><p>Web Designer/Developer | Fairytale Brownies</p>
@@ -60,11 +60,11 @@ export const App: FC<{ name: string }> = ({ name }) => {
 </div>
 </div>
 </div>
-<div className="card-cont ovo">
+<div className="card-cont mont">
 
 <div className="row">
 
-<div className="col-md-3"><p className="smaller">Oct 2020 - Nov 2022</p></div>
+<div className="col-md-3 duration"><p className="smaller">OCT'20 - NOV'22</p></div>
 
 <div className="col-md-9"><p>Web Designer/Developer | Petosa Accordions</p>
 
@@ -73,11 +73,11 @@ export const App: FC<{ name: string }> = ({ name }) => {
 </div>
 </div>
 </div>
-<div className="card-cont ovo">
+<div className="card-cont mont">
 
 <div className="row">
 
-<div className="col-md-3"><p className="smaller">August 2019 - Jan 2020</p></div>
+<div className="col-md-3 duration"><p className="smaller">AUG'19 - JAN'20</p></div>
 
 <div className="col-md-9"><p>Graphic Designer | Berkadia</p>
 
@@ -87,11 +87,11 @@ export const App: FC<{ name: string }> = ({ name }) => {
 </div>
 </div>
 
-<div className="card-cont ovo">
+<div className="card-cont mont">
 
 <div className="row">
 
-<div className="col-md-3"><p className="smaller">Dec 2018 - Aug 2019</p></div>
+<div className="col-md-3 duration"><p className="smaller">DEC'18 - AUG'19</p></div>
 
 <div className="col-md-9"><p>Graphic Design / Marketing / Drone Operations | Phoenix UAV LLC</p>
 
@@ -102,11 +102,11 @@ Communicating with clients regarding their needs (Shotlists, highlighted informa
 </div>
 </div>
 </div>
-<div className="card-cont ovo">
+<div className="card-cont mont">
 
 <div className="row">
 
-<div className="col-md-3"><p className="smaller">Sep 2016 - July 2018</p></div>
+<div className="col-md-3 duration"><p className="smaller">SEP'16 - JULY'18</p></div>
 
 <div className="col-md-9"><p>Graphic Designer | Retail Investment Group LLC</p>
 
