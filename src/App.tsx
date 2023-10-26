@@ -98,7 +98,7 @@ export const App: FC<{ name: string }> = ({ name }) => {
 <p className="exp-body">Creating a brand identity for the company (Logo, website, general aesthetic)
 Editing drone videos in Adobe Premiere and After Effects to meet client demands
 Communicating with clients regarding their needs (Shotlists, highlighted information, etc.)</p>
--
+
 </div>
 </div>
 </div>
