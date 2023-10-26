@@ -6,9 +6,7 @@
 @font-face {
   font-family: 'Glancyr';
   src: local('Glancyr'), local('Glancyr-Regular'),
-       url('/fonts/Glancyr.otf') format('otf'),
-       url('/fonts/Glancyr.woff') format('woff'),
-       url('/fonts/Glancyr.ttf') format('truetype');
+       url('/fonts/Glancyr-Regular.otf') format('otf'),;
   font-weight: normal;
   font-style: normal;
 }
