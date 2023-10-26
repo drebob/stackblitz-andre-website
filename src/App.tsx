@@ -17,8 +17,8 @@ export const App: FC<{ name: string }> = ({ name }) => {
         <div className="container0 content-hidden" id="pageContent">
         <div className="row h-100">
 
-          <div className="col-md-5 d-flex flex-column justify-content-top align-items-start p-5 sticky-top">
-          <div className="container1">
+          <div className="col-md-6 d-flex flex-column justify-content-top align-items-start sticky-top kk">
+          <div className="container1  w-80">
             <h1 className="header-text name">Andre Hall-Rodrigues</h1>
 
             <h3 className="header-text title">Web Developer/Designer</h3>
@@ -33,8 +33,8 @@ export const App: FC<{ name: string }> = ({ name }) => {
 
 </div>
 
-<div className="col-md-7 overflow-auto p-5" id="about">
-  <div className="container1">
+<div className="col-md-6 overflow-auto kk2" id="about">
+  <div className="container2">
 <div className="about-cont description b">
 <p>My journey in graphic and web design started with personalizing my MySpace profile and evolved into a career crafting digital experiences for diverse industries. I’ve designed and developed websites for commercial real estate, drone photography, and a century-old accordion manufacturer. Currently, I'm the lead front-end designer and developer for Fairytale Brownies, responsible for maintaining and updating Brownies.com.
 </p>

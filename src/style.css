@@ -186,6 +186,16 @@ a {
   border: solid black 3px;
 }
 
+.container2 {
+  padding:1rem 2rem 0rem 2rem!important;
+  margin:4rem 0!important;
+  background-color: #ffffff95!important;
+  -webkit-backdrop-filter: blur(3.5px) brightness(1)!important;
+  backdrop-filter: blur(3.5px) brightness(1)!important;
+  border-radius:10px;
+  border: solid black 3px;
+}
+
 .name {
   font-family:'Glancyr', sans-serif;
   font-weight: 800;
@@ -245,4 +255,16 @@ padding-bottom:6.3rem;
 .exp-body{
   font-size:.9rem;
   font-weight:500;
+}
+
+.w-80{
+ width: 90% !important;;
+}
+
+.kk {
+padding:1.5rem 4.25rem !important;
+}
+
+.kk2 {
+  padding: 1.5rem 4.25rem 1.5rem 0rem !important;
 }
