@@ -53,9 +53,9 @@ export const App: FC<{ name: string }> = ({ name }) => {
 <div className="col-md-3 duration"><p className="smaller">APRIL'22 - PRESENT</p></div>
 
 
-<div className="col-md-9"><p>Web Designer/Developer | Fairytale Brownies</p>
+<div className="col-md-9"><p className="exp-title">Web Designer/Developer | Fairytale Brownies</p>
 
-<p>Maintain the various websites using Visual Studio and Wordpress - Redesign homepge bi-weekly(minimum) - Redesign of existing highly trafficked pages (homepage, product detail pages, product category pages with filters) - acting as point of contact for back-end programmer contractors - rapidy color-correcting and photoshopping high volumes of product shots - deploying, testing, debugging  </p>
+<p className="exp-body">Maintain the various websites using Visual Studio and Wordpress - Redesign homepge bi-weekly(minimum) - Redesign of existing highly trafficked pages (homepage, product detail pages, product category pages with filters) - acting as point of contact for back-end programmer contractors - rapidy color-correcting and photoshopping high volumes of product shots - deploying, testing, debugging  </p>
 
 </div>
 </div>
@@ -66,9 +66,9 @@ export const App: FC<{ name: string }> = ({ name }) => {
 
 <div className="col-md-3 duration"><p className="smaller">OCT'20 - NOV'22</p></div>
 
-<div className="col-md-9"><p>Web Designer/Developer | Petosa Accordions</p>
+<div className="col-md-9"><p className="exp-title">Web Designer/Developer | Petosa Accordions</p>
 
-<p>Maintain the various websites using Visual Studio and Wordpress - Redesign homepge bi-weekly(minimum) - Redesign of existing highly trafficked pages (homepage, product detail pages, product category pages with filters) - acting as point of contact for back-end programmer contractors - rapidy color-correcting and photoshopping high volumes of product shots - deploying, testing, debugging  </p>
+<p className="exp-body">Maintain the various websites using Visual Studio and Wordpress - Redesign homepge bi-weekly(minimum) - Redesign of existing highly trafficked pages (homepage, product detail pages, product category pages with filters) - acting as point of contact for back-end programmer contractors - rapidy color-correcting and photoshopping high volumes of product shots - deploying, testing, debugging  </p>
 
 </div>
 </div>
@@ -79,9 +79,9 @@ export const App: FC<{ name: string }> = ({ name }) => {
 
 <div className="col-md-3 duration"><p className="smaller">AUG'19 - JAN'20</p></div>
 
-<div className="col-md-9"><p>Graphic Designer | Berkadia</p>
+<div className="col-md-9"><p className="exp-title">Graphic Designer | Berkadia</p>
 
-<p>Design marking packages for commercial properties - design websites for specific properties and sales teams - collaborate with project managers, realtors, and other designers - create maps and other materials relevant to a prospective buyer  </p>
+<p className="exp-body">Design marking packages for commercial properties - design websites for specific properties and sales teams - collaborate with project managers, realtors, and other designers - create maps and other materials relevant to a prospective buyer  </p>
 
 </div>
 </div>
@@ -93,9 +93,9 @@ export const App: FC<{ name: string }> = ({ name }) => {
 
 <div className="col-md-3 duration"><p className="smaller">DEC'18 - AUG'19</p></div>
 
-<div className="col-md-9"><p>Graphic Design / Marketing / Drone Operations | Phoenix UAV LLC</p>
+<div className="col-md-9"><p className="exp-title">Graphic Design / Marketing / Drone Operations | Phoenix UAV LLC</p>
 
-<p>Creating a brand identity for the company (Logo, website, general aesthetic)
+<p className="exp-body">Creating a brand identity for the company (Logo, website, general aesthetic)
 Editing drone videos in Adobe Premiere and After Effects to meet client demands
 Communicating with clients regarding their needs (Shotlists, highlighted information, etc.)</p>
 -
@@ -108,9 +108,9 @@ Communicating with clients regarding their needs (Shotlists, highlighted informa
 
 <div className="col-md-3 duration"><p className="smaller">SEP'16 - JULY'18</p></div>
 
-<div className="col-md-9"><p>Graphic Designer | Retail Investment Group LLC</p>
+<div className="col-md-9"><p className="exp-title">Graphic Designer | Retail Investment Group LLC</p>
 
-<p>Creating new graphic, web and print assets for marketing
+<p className="exp-body">Creating new graphic, web and print assets for marketing
 
 Rapidly completing Offering Memorandums (Within 24-48 hours)
 Creating videos to advertise commercial properties

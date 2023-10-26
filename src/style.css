@@ -230,3 +230,13 @@ padding-bottom:6.3rem;
   font-weight:600;
   margin-top:.25rem!important;  
 }
+
+.exp-title{
+  font-size:1rem;
+  font-weight:700;
+}
+
+.exp-body{
+  font-size:.9rem;
+  font-weight:400;
+}
