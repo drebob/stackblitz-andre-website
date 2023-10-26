@@ -14,6 +14,7 @@ const ScrollButtons = () => {
 
     return (
         <div>
+            <div className="button grow-on-hover"><a href="#about">about</a></div>
             <div className="button grow-on-hover" onClick={() => scrollTo('#experience')}>experience</div>
             <div className="button grow-on-hover" onClick={() => scrollTo('#projects')}>projects</div>
         </div>

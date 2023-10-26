@@ -25,12 +25,12 @@ export const App: FC<{ name: string }> = ({ name }) => {
 
             <p className="header-text description">Expert in digital design with Adobe Suite and AI, along with modern front-end technologies like Bootstrap, React, and jQuery.</p>
 
-            
-<div className="button grow-on-hover"><a href="#about">about</a></div>
+            </div>
+
 
 <ScrollButtons />
 
-</div>
+
 </div>
 
 <div className="col-md-7 overflow-auto p-5" id="about">
