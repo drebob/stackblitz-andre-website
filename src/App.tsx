@@ -19,6 +19,7 @@ export const App: FC<{ name: string }> = ({ name }) => {
 
           <div className="col-md-6 d-flex flex-column justify-content-top align-items-start sticky-top kk">
           <div className="container1  w-80">
+          <img className="profile-pic"></img>
             <h1 className="header-text name">Andre Hall-Rodrigues</h1>
 
             <h3 className="header-text title">Web Developer/Designer</h3>
