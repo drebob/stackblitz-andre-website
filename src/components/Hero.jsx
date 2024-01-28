@@ -1,5 +1,5 @@
-import styles from "../../project_hoobank/src/style";
-import { discount, robot } from "../../project_hoobank/src/assets";
+import styles from "../style";
+import { discount, robot } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => {

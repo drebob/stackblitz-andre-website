@@ -1,5 +1,5 @@
-import { clients } from "../../project_hoobank/src/constants";
-import styles from "../../project_hoobank/src/style";
+import { clients } from "../constants";
+import styles from "../style";
 
 const Clients = () => (
   <section className={`${styles.flexCenter} my-4`}>

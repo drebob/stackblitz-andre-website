@@ -1,4 +1,4 @@
-import styles from "../../project_hoobank/src/style";
+import styles from "../style";
 import Button from "./Button";
 
 const CTA = () => (

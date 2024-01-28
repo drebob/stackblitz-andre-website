@@ -1,5 +1,5 @@
-import { card } from "../../project_hoobank/src/assets";
-import styles, { layout } from "../../project_hoobank/src/style";
+import { card } from "../assets";
+import styles, { layout } from "../style";
 import Button from "./Button";
 
 const CardDeal = () => (

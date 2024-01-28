@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-import { close, logo, menu } from "../../project_hoobank/src/assets";
-import { navLinks } from "../../project_hoobank/src/constants";
+import { close, logo, menu } from "../assets";
+import { navLinks } from "../constants";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");

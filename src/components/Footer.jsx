@@ -1,6 +1,6 @@
-import styles from "../../project_hoobank/src/style";
-import { logo } from "../../project_hoobank/src/assets";
-import { footerLinks, socialMedia } from "../../project_hoobank/src/constants";
+import styles from "../style";
+import { logo } from "../assets";
+import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>

@@ -1,5 +1,5 @@
-import { feedback } from "../../project_hoobank/src/constants";
-import styles from "../../project_hoobank/src/style";
+import { feedback } from "../constants";
+import styles from "../style";
 import FeedbackCard from "./FeedbackCard";
 
 const Testimonials = () => (

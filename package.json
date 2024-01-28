@@ -19,6 +19,8 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "7.21.11",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
     "react-scripts": "latest",
     "tailwindcss": "^3.4.1"
   },
