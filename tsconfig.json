@@ -4,6 +4,8 @@
     "lib": ["DOM", "ES2022"],
     "moduleResolution": "node",
     "target": "ES2022",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "outDir": "./dist"
   }
 }

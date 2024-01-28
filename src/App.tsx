@@ -2,6 +2,7 @@ import { FC } from 'react';
 import VideoHeader from './components/VideoHeader';
 
 import './style.css';
+import './style';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ScrollButtons from './components/Skills';
 
