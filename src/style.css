@@ -1,0 +1,281 @@
+/* ⬇️boilerplate/misc⬇️ */
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Glancyr';
+  src: url('../public/fonts/Glancyr-Bold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glancyr';
+  src: url('../public/fonts/Glancyr-BoldItalic.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Glancyr';
+  src: url('../public/fonts/Glancyr-ExtraLight.otf') format('opentype');
+  font-weight: 200; /* Extra Light */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glancyr';
+  src: url('../public/fonts/Glancyr-ExtraLightItalic.otf') format('opentype');
+  font-weight: 200; /* Extra Light */
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Glancyr';
+  src: url('../public/fonts/Glancyr-Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Glancyr';
+  src: url('../public/fonts/Glancyr-Light.otf') format('opentype');
+  font-weight: 300; /* Light */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glancyr';
+  src: url('../public/fonts/Glancyr-LightItalic.otf') format('opentype');
+  font-weight: 300; /* Light */
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Glancyr';
+  src: url('../public/fonts/Glancyr-Medium.otf') format('opentype');
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glancyr';
+  src: url('../public/fonts/Glancyr-MediumItalic.otf') format('opentype');
+  font-weight: 500; /* Medium */
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Glancyr';
+  src: url('../public/fonts/Glancyr-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glancyr';
+  src: url('../public/fonts/Glancyr-SemiBold.otf') format('opentype');
+  font-weight: 600; /* Semi Bold */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glancyr';
+  src: url('../public/fonts/Glancyr-SemiBoldItalic.otf') format('opentype');
+  font-weight: 600; /* Semi Bold */
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Glancyr';
+  src: url('../public/fonts/Glancyr-Thin.otf') format('opentype');
+  font-weight: 100; /* Thin */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glancyr';
+  src: url('../public/fonts/Glancyr-ThinItalic.otf') format('opentype');
+  font-weight: 100; /* Thin */
+  font-style: italic;
+}
+
+
+body,
+html {
+  overflow: auto;
+  margin: auto;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+}
+
+.about-cont{
+  border-radius: 10px;
+  margin: 0rem 0;
+  padding: 0rem .5rem;
+}
+
+.container0 {
+  max-width: 1280px!important;
+  margin:auto;
+  transition: opacity 2s; 
+}
+
+.card-cont {
+  border-radius: 10px;
+  margin: 1rem 0;
+  padding: 1rem 1rem;
+}
+
+.card-cont:hover {
+  background-color: #ffffff95!important;
+  cursor: pointer;
+  box-shadow: 0px -.1rem #ffffffd9, 0 0 .5em rgba(8, 8, 8, 0.178);
+}
+
+.col-md-6 {
+  height: 100vh;
+  /* Make each column occupy the full viewport height */
+}
+
+.col-md-7 {
+  height: 100vh;
+  /* Make each column occupy the full viewport height */
+}
+.col-md-5 {
+  height: 100vh;
+  /* Make each column occupy the full viewport height */
+}
+
+.overflow-auto {
+  overflow-y: auto;
+  /* Enable vertical scrolling if content overflows */
+  height: 100%;
+  /* Make it fill its parent's height */
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.content-hidden {
+  opacity: 0;
+ 
+}
+
+
+.grow-on-hover {
+  transition: transform 0.3s;  /* smooth transition */
+}
+
+.grow-on-hover:hover {
+
+  text-decoration:underline;
+}
+
+.button {
+  font-family: 'Glancyr', sans-serif;
+  font-weight: 700; 
+letter-spacing:0rem;
+}
+.button a {color:#333;
+}
+a {
+  text-decoration: none!important;
+}
+
+.container1 {
+  padding:2rem 2rem 0rem 2rem!important;
+  margin:4rem 0!important;
+  background-color: #ffffff95!important;
+  -webkit-backdrop-filter: blur(3.5px) brightness(1)!important;
+  backdrop-filter: blur(3.5px) brightness(1)!important;
+  border-radius:10px;
+  box-shadow: 0px -.15rem #ffffffd9, 0 .05rem .65em rgba(8, 8, 8, 0.178);
+}
+
+.container2 {
+  padding:1.5rem 1.5rem 0rem 1.5rem!important;
+  margin:4rem 0!important;
+  background-color: #ffffff95!important;
+  -webkit-backdrop-filter: blur(3.5px) brightness(1)!important;
+  backdrop-filter: blur(3.5px) brightness(1)!important;
+  border-radius:10px;
+  box-shadow: 0px -.1rem #ffffffd9, 0 0 .5em rgba(8, 8, 8, 0.178);
+}
+
+.name {
+  font-family:'Glancyr', sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+    letter-spacing: -0.225rem;
+    line-height: 2.5rem;
+
+}
+.title {
+  font-family:'Glancyr', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  letter-spacing:.22rem;
+
+}
+.description {
+  font-family:'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size:1rem
+}
+
+.mont{
+  font-family:'Montserrat', sans-serif;
+}
+
+
+.about {
+  font-family:'Montserrat', sans-serif;
+  letter-spacing:.01rem;
+  font-weight:400
+}
+
+.b
+{
+padding-bottom:4rem;
+}
+.profile-pic {
+  width: 75px;
+  height: 75px;
+  background-image: url(https://i.postimg.cc/sD3bQ3Nv/IMG-0289.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  float: right;
+  margin-right: 3rem;
+}
+
+
+
+.p-l-0{padding-left: 0 !important;}
+.p-r-0{padding-right: 0 !important;}
+
+.duration{
+  text-transform:uppercase;
+  letter-spacing:.025em;
+  font-size:.7rem!important;
+  font-weight:600;
+  margin-top:.25rem!important;  
+}
+
+.exp-title{
+  font-size:1rem;
+  font-weight:700;
+}
+
+.exp-body{
+  font-size:.9rem;
+  font-weight:500;
+}
+
+.w-80{
+ width: 90% !important;;
+}
+
+.kk {
+padding:1.5rem 4.25rem !important;
+}
+
+.kk2 {
+  padding: 1.5rem 4.25rem 1.5rem .45rem !important;
+}
