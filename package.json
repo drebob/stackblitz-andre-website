@@ -3,6 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-transform-class-properties": "^7.23.3",
+    "@babel/plugin-transform-nullish-coalescing-operator": "^7.23.4",
+    "@babel/plugin-transform-numeric-separator": "^7.23.4",
+    "@babel/plugin-transform-optional-chaining": "^7.23.4",
+    "@babel/plugin-transform-private-methods": "^7.23.3",
+    "@tsparticles/react": "^3.0.0",
     "@types/p5": "^1.7.0",
     "@types/react": "18.2.28",
     "@types/react-dom": "18.2.13",
