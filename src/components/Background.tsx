@@ -8,7 +8,7 @@ const Background: React.FC = () => {
   };
 
   const particlesLoaded = (container) => {
-    // Handle loaded particles
+    return Promise.resolve();
   };
 
   return (
@@ -17,11 +17,22 @@ const Background: React.FC = () => {
       init={particlesInit}
       loaded={particlesLoaded}
       options={{
-        // Your particles configuration
+        particles: {
+          number: {
+            value: 50,
+          },
+          links: {
+            enable: true,
+            opacity: 0.5,
+          },
+          move: {
+            enable: true,
+          },
+        },
       }}
+      
     />
   );
 };
 
 export default Background;
-
