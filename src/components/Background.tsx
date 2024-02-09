@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { FC, useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import {
   type Container,
@@ -6,8 +6,11 @@ import {
 } from "@tsparticles/engine";
 import { loadSlim } from "@tsparticles/slim";
 
+interface BackgroundProps {
+  options: ISourceOptions; // Accept options as a prop
+}
 
-const Background: React.FC = () => {
+const Background: FC<BackgroundProps> = ({ options: particlesOptions }) => {
   const [init, setInit] = useState(false);
 
   useEffect(() => {
@@ -23,19 +26,44 @@ const Background: React.FC = () => {
 
   const options: ISourceOptions = useMemo(() => ({
     // Particles options
-    background: { color: { value: "#0d47a1" } },
-    fpsLimit: 120,
-    interactivity: {
-      events: { onClick: { enable: true, mode: "push" }, onHover: { enable: true, mode: "repulse" } },
-      modes: { push: { quantity: 4 }, repulse: { distance: 200, duration: 0.4 } },
+    background: {
+      color: { value: "#9c27b0" },
     },
     particles: {
-      color: { value: "#ffffff" },
-      links: { color: "#ffffff", distance: 150, enable: true, opacity: 0.5, width: 1 },
-      number: { density: { enable: true }, value: 80 },
-      opacity: { value: 0.5 },
-      shape: { type: "circle" },
-      size: { value: { min: 1, max: 5 } },
+      number: {
+        value: 70,
+      },
+      color: {
+        value: "#ffffff",
+      },
+      opacity: {
+        value: 0.6,
+      },
+      size: {
+        value: 3,
+      },
+      links: {
+        enable: true,
+        color: "#ffffff",
+        distance: 100,
+      },
+    },
+    interactivity: {
+      events: {
+        onHover: {
+          enable: true,
+          mode: "connect",
+        },
+      },
+      modes: {
+        connect: {
+          distance: 180,
+          lineLinked: {
+            opacity: 0.5,
+          },
+          radius: 60,
+        },
+      },
     },
     detectRetina: true,
   }), []);
@@ -45,7 +73,7 @@ const Background: React.FC = () => {
       <Particles
         id="tsparticles"
         particlesLoaded={particlesLoaded}
-        options={options}
+        options={particlesOptions}
       />
     );
   }
