@@ -2,7 +2,7 @@ import styles from "../style";
 
 const Title = () => {
   return (
-    <section id="home" className={`flex md:flex-row flex-col`}>
+    <section id="titledescription" className={`flex md:flex-row flex-col`}>
       <div className={`flex-1 ${styles.flexStart} flex-col`}>
         
 

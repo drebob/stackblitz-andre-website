@@ -165,40 +165,42 @@ const backgroundOptions: { [key: string]: ISourceOptions } = {
 
 export const App: FC = () => {
   const [activeBackground, setActiveBackground] = useState<string>('background1');
-  const aboutRef = useRef(null);
-  const experienceRef = useRef(null);
   const [activeSection, setActiveSection] = useState('');
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setActiveSection(entry.target.id);
-          }
-        });
-      },
-      { rootMargin: '0px', threshold: 0.5 } // Adjust threshold and rootMargin as needed
-    );
+    const sections = document.querySelectorAll('section'); // Assuming your sections have a 'section' tag
+  const navLinks = document.querySelectorAll('.nav a'); // Your nav links
 
-    if (aboutRef.current) {
-      observer.observe(aboutRef.current);
-    }
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
+          const id = entry.target.getAttribute('id');
+          setActiveSection(id);
 
-    if (experienceRef.current) {
-      observer.observe(experienceRef.current);
-    }
+          navLinks.forEach((link) => {
+            if (link.getAttribute('href') === `#${id}`) {
+              link.parentElement.classList.add('active');
+            } else {
+              link.parentElement.classList.remove('active');
+            }
+          });
+        }
+      });
+    },
+    { rootMargin: '0px', threshold: 0.5 }
+  );
 
-    return () => {
-      if (aboutRef.current) {
-        observer.unobserve(aboutRef.current);
-      }
+  sections.forEach((section) => {
+    observer.observe(section);
+  });
 
-      if (experienceRef.current) {
-        observer.unobserve(experienceRef.current);
-      }
-    };
-  }, []); 
+  return () => {
+    sections.forEach((section) => {
+      observer.unobserve(section);
+    });
+  };
+}, []);
 
   return (
     <div className="relative bg-black-gradient mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
@@ -223,8 +225,8 @@ export const App: FC = () => {
             </div>
           </div>
           <div className={'lg:w-1/2'}>
-          <div ref={aboutRef}><About /></div>
-      <div ref={experienceRef}><Experience /></div>
+          <div><About /></div>
+      <div><Experience /></div>
           </div>
         </div>
       </div>

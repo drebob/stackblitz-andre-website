@@ -25,3 +25,13 @@ html {
 .bg-black-gradient {
   background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
 }
+
+/* In your style.css file */
+.active .nav-indicator {
+  width: 4rem; /* same as group-hover:w-16 */
+  background-color: #e2e8f0; /* same as group-hover:bg-slate-200 */
+}
+
+.active .nav-text {
+  color: #e2e8f0; /* same as group-hover:text-slate-200 */
+}
