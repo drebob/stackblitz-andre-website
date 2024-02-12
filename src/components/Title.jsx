@@ -7,9 +7,11 @@ const Title = () => {
         
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] md:text-[40px] text-white">
-            Andre Hall-Rodrigues <br className="sm:block hidden" />{" "}
-          </h1>
+          <p className={'flex-1 font-poppins font-semibold xs:text-[72px] md:text-[40px] text-white'}>
+            
+            
+            Andre Hall-Rodrigues 
+          </p>
           
         </div>
 
