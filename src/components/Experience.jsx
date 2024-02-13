@@ -78,27 +78,27 @@ const Experience = () => (
               </li>
               <li className="mr-1.5 mt-2">
                 <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                  TypeScript
+                  jQuery
                 </div>
               </li>
               <li className="mr-1.5 mt-2">
                 <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                  HTML &amp; SCSS
+                  HTML/CSS
                 </div>
               </li>
               <li className="mr-1.5 mt-2">
                 <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                  React
+                  .NET
                 </div>
               </li>
               <li className="mr-1.5 mt-2">
                 <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                  Next.js
+                  Sirv
                 </div>
               </li>
               <li className="mr-1.5 mt-2">
                 <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                  React Native
+                  Bootstrap
                 </div>
               </li>
               <li className="mr-1.5 mt-2">
@@ -108,17 +108,27 @@ const Experience = () => (
               </li>
               <li className="mr-1.5 mt-2">
                 <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                  Contentful
+                  HotJar
                 </div>
               </li>
               <li className="mr-1.5 mt-2">
                 <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                  Node.js
+                  Photoshop
                 </div>
               </li>
               <li className="mr-1.5 mt-2">
                 <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                  PHP
+                  Illustrator
+                </div>
+              </li>
+              <li className="mr-1.5 mt-2">
+                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                  C#
+                </div>
+              </li>
+              <li className="mr-1.5 mt-2">
+                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                  Klaviyo
                 </div>
               </li>
             </ul>
@@ -180,14 +190,44 @@ const Experience = () => (
               className="mt-2 flex flex-wrap"
               aria-label="Technologies used"
             >
-              <li className="mr-1.5 mt-2">
+             <li className="mr-1.5 mt-2">
                 <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                  SCSS
+                  JavaScript
                 </div>
               </li>
               <li className="mr-1.5 mt-2">
                 <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                  JavaScript
+                  jQuery
+                </div>
+              </li>
+              <li className="mr-1.5 mt-2">
+                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                  HTML/CSS
+                </div>
+              </li>
+              <li className="mr-1.5 mt-2">
+                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                  Shopify
+                </div>
+              </li>
+              <li className="mr-1.5 mt-2">
+                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                  WordPress
+                </div>
+              </li>
+              <li className="mr-1.5 mt-2">
+                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                  Liquid
+                </div>
+              </li>
+              <li className="mr-1.5 mt-2">
+                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                  Photoshop
+                </div>
+              </li>
+              <li className="mr-1.5 mt-2">
+                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                  Illustrator
                 </div>
               </li>
             </ul>
@@ -215,7 +255,7 @@ const Experience = () => (
                 >
                   <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                   <span>
-                    Web Designer · Berkadia
+                    Graphic / Web Designer · Berkadia
                     <span className="inline-block">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -247,22 +287,27 @@ const Experience = () => (
             >
               <li className="mr-1.5 mt-2">
                 <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                  Jekyll
+                  InDesign
                 </div>
               </li>
               <li className="mr-1.5 mt-2">
                 <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                  SCSS
+                  Illustrator
                 </div>
               </li>
               <li className="mr-1.5 mt-2">
                 <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                  JavaScript
+                  Photoshop
                 </div>
               </li>
               <li className="mr-1.5 mt-2">
                 <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                  WordPress
+                  Premiere
+                </div>
+              </li>
+              <li className="mr-1.5 mt-2">
+                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                  After Effects
                 </div>
               </li>
             </ul>
@@ -290,7 +335,7 @@ const Experience = () => (
                 >
                   <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                   <span>
-                    Graphic Designer / Drone Operater ·&nbsp;
+                    Graphic / Web Designer &#38; Drone Operater ·&nbsp;
                     <span className="inline-block">
                       PHX UAV
                       <svg
@@ -321,14 +366,44 @@ const Experience = () => (
               className="mt-2 flex flex-wrap"
               aria-label="Technologies used"
             >
-              <li className="mr-1.5 mt-2">
+             <li className="mr-1.5 mt-2">
                 <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
                   JavaScript
                 </div>
               </li>
               <li className="mr-1.5 mt-2">
                 <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                  CSS
+                  HTML/CSS
+                </div>
+              </li>
+              <li className="mr-1.5 mt-2">
+                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                  Bootstrap
+                </div>
+              </li>
+              <li className="mr-1.5 mt-2">
+                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                  WordPress
+                </div>
+              </li>
+              <li className="mr-1.5 mt-2">
+                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                  Photoshop
+                </div>
+              </li>
+              <li className="mr-1.5 mt-2">
+                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                  Illustrator
+                </div>
+              </li>
+              <li className="mr-1.5 mt-2">
+                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                  Premiere
+                </div>
+              </li>
+              <li className="mr-1.5 mt-2">
+                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                  After Effects
                 </div>
               </li>
             </ul>
@@ -393,14 +468,10 @@ const Experience = () => (
             >
               <li className="mr-1.5 mt-2">
                 <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                  HTML
+                  HTML/CSS
                 </div>
               </li>
-              <li className="mr-1.5 mt-2">
-                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                  CSS
-                </div>
-              </li>
+
               <li className="mr-1.5 mt-2">
                 <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
                   JavaScript
@@ -408,7 +479,27 @@ const Experience = () => (
               </li>
               <li className="mr-1.5 mt-2">
                 <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                  jQuery
+                  WordPress
+                </div>
+              </li>
+              <li className="mr-1.5 mt-2">
+                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                  Photoshop
+                </div>
+              </li>
+              <li className="mr-1.5 mt-2">
+                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                  Illustrator
+                </div>
+              </li>
+              <li className="mr-1.5 mt-2">
+                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                  Premiere
+                </div>
+              </li>
+              <li className="mr-1.5 mt-2">
+                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                  After Effects
                 </div>
               </li>
             </ul>
