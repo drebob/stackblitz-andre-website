@@ -7,28 +7,18 @@ import { ISourceOptions } from '@tsparticles/engine';
 // Define your background options outside the component
 const backgroundOptions: { [key: string]: ISourceOptions } = {
   background1: {
+    autoPlay: true,
     background: {
-      color: { value: "#0d47a1" },
-    },
-    particles: {
-      number: {
-        value: 80,
-      },
       color: {
-        value: "#ffffff",
-      },
-      opacity: {
-        value: 0.5,
-      },
-      size: {
-        value: 3,
-      },
-      links: {
-        enable: true,
-        color: "#ffffff",
-        distance: 150,
+        value: "#0d47a1",
       },
     },
+    fullScreen: {
+      enable: true,
+      zIndex: 0,
+    },
+    detectRetina: true,
+    fpsLimit: 120,
     interactivity: {
       events: {
         onClick: {
@@ -40,7 +30,54 @@ const backgroundOptions: { [key: string]: ISourceOptions } = {
           mode: "repulse",
         },
       },
+      modes: {
+        bubble: {
+          distance: 200,
+          duration: 0.4,
+        },
+        connect: {
+          distance: 80,
+          links: {
+            opacity: 0.5,
+          },
+        },
+      },
     },
+    particles: {
+      number: {
+        value: 300,
+      },
+      color: {
+        value: "#ffffff",
+      },
+      shape: {
+        type: "circle",
+      },
+      opacity: {
+        value: {
+          min: 0.1,
+          max: 1,
+        },
+      },
+      size: {
+        value: {
+          min: 1,
+          max: 2,
+        },
+      },
+      links: {
+        color: {
+          value: "#fff",
+        },
+      },
+      move: {
+        direction: "top",
+        enable: true,
+        speed: 0.5,
+      },
+    },
+    pauseOnBlur: true,
+    zLayers: 100,
   },
   background2: {
     background: {
