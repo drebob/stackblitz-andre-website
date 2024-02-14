@@ -91,9 +91,6 @@ const backgroundOptions: { [key: string]: ISourceOptions } = {
     zLayers: 100,
   },
   background2: {
-    background: {
-      color: { value: "#ff5722" },
-    },
     particles: {
       number: {
         value: 100,
@@ -136,9 +133,6 @@ const backgroundOptions: { [key: string]: ISourceOptions } = {
     },
   },
   background3: {
-    background: {
-      color: { value: "#4caf50" },
-    },
     particles: {
       number: {
         value: 50,
@@ -167,9 +161,6 @@ const backgroundOptions: { [key: string]: ISourceOptions } = {
     },
   },
   background4: {
-    background: {
-      color: { value: "#9c27b0" },
-    },
     particles: {
       number: {
         value: 70,
