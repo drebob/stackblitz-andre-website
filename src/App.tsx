@@ -9,43 +9,54 @@ const backgroundOptions: { [key: string]: ISourceOptions } = {
   background1: {
     autoPlay: true,
     background: {
-      color: {
-        value: "#0d47a1",
-      },
+      "color": {
+        "value": "#bada55"
+    },
+      opacity: 0,
     },
     fullScreen: {
       enable: true,
       zIndex: 0,
     },
     detectRetina: true,
+    absorbers: {
+      orbits: true,
+      destroy: true,
+      opacity: 1,
+      color: "#000",
+      size: {
+        value: 5,
+        limit: 10,
+        random: false,
+        density: 50
+      },
+    },
     fpsLimit: 120,
     interactivity: {
       events: {
         onClick: {
           enable: true,
-          mode: "push",
+          mode: "repulse",
         },
         onHover: {
           enable: true,
-          mode: "repulse",
+          mode: "attract",
         },
       },
-      modes: {
-        bubble: {
-          distance: 200,
-          duration: 0.4,
-        },
-        connect: {
-          distance: 80,
-          links: {
-            opacity: 0.5,
+        modes: {
+          attract: {
+          density: 5000
           },
-        },
+          repulse: {
+            distance: 100,
+            duration: 0.4,
+          },
       },
     },
+    
     particles: {
       number: {
-        value: 300,
+        value: 500,
       },
       color: {
         value: "#ffffff",
@@ -67,7 +78,7 @@ const backgroundOptions: { [key: string]: ISourceOptions } = {
       },
       links: {
         color: {
-          value: "#fff",
+          value: "#b4d455",
         },
       },
       move: {

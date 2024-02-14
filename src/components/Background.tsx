@@ -26,46 +26,6 @@ const Background: FC<BackgroundProps> = ({ options: particlesOptions }) => {
 
   const options: ISourceOptions = useMemo(() => ({
     // Particles options
-    background: {
-      color: { value: "#9c27b0" },
-    },
-    particles: {
-      number: {
-        value: 70,
-      },
-      color: {
-        value: "#ffffff",
-      },
-      opacity: {
-        value: 0.6,
-      },
-      size: {
-        value: 3,
-      },
-      links: {
-        enable: true,
-        color: "#ffffff",
-        distance: 100,
-      },
-    },
-    interactivity: {
-      events: {
-        onHover: {
-          enable: true,
-          mode: "connect",
-        },
-      },
-      modes: {
-        connect: {
-          distance: 180,
-          lineLinked: {
-            opacity: 0.5,
-          },
-          radius: 60,
-        },
-      },
-    },
-    detectRetina: true,
   }), []);
 
   if (init) {
