@@ -178,12 +178,7 @@ const Experience = () => (
               </div>
             </h3>
             <p className="mt-2 text-sm leading-normal text-white">
-              Maintain the various websites using Visual Studio and Wordpress
-              - Redesign homepge bi-weekly(minimum) - Redesign of existing
-              highly trafficked pages (homepage, product detail pages, product
-              category pages with filters) - acting as point of contact for
-              back-end programmer contractors - rapidy color-correcting and
-              photoshopping high volumes of product shots - deploying,
+              Migrate site from Wordpress to Shopify - Redesign the entire site - Work closely with owner - Create custom assets - Photoshop large volumes of product shots - Deploying,
               testing, debugging
             </p>
             <ul
