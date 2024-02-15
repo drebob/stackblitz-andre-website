@@ -1,4 +1,4 @@
-import { FC, useEffect, useMemo, useState } from "react";
+import React,{ FC, useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import {
   type Container,
@@ -10,7 +10,7 @@ interface BackgroundProps {
   options: ISourceOptions; // Accept options as a prop
 }
 
-const Background: FC<BackgroundProps> = ({ options: particlesOptions }) => {
+const Background: FC<BackgroundProps> = React.memo(({ options }) => {
   const [init, setInit] = useState(false);
 
   useEffect(() => {
@@ -24,21 +24,17 @@ const Background: FC<BackgroundProps> = ({ options: particlesOptions }) => {
     console.log(container);
   };
 
-  const options: ISourceOptions = useMemo(() => ({
-    // Particles options
-  }), []);
-
   if (init) {
     return (
       <Particles
         id="tsparticles"
         particlesLoaded={particlesLoaded}
-        options={particlesOptions}
+        options={options} // Fixed to use the prop directly
       />
     );
   }
 
   return null; // It's often more conventional to return null in React for conditional rendering
-};
+});
 
 export default Background;
