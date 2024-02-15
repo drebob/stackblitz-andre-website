@@ -248,12 +248,10 @@ export const App: FC = () => {
             <Title />
             <Nav activeSection={activeSection} />
             <SocialMedia />
-            <div>
-            </div>
           </div>
           <div className={'lg:w-1/2'}>
-            <About />
-            <Experience />
+           <About />
+           <Experience />
           </div>
         </div>
       </div>
