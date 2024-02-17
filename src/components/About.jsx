@@ -13,7 +13,7 @@ const About = () =>  (
         My role involves not just web design but also merchandising, data analytics, and collaborating with back-end developers. Although I wear many hats, my main priority is creating user-friendly, attractive websites that stand out, aiming for improved user engagement and conversion rates.
         </p>
         <p className={`font-poppins font-normal text-dimWhite text-[17.5px] leading-[26.8px] mt-5`}>
-           When I'm not at a computer, I balance my life with music, exercise, and quality time with friends and my dog, Brutus. 
+           When I'm not at a computer, I'm probably playing piano, playing video games, exercising, or spending quality time with friends and my dog, Brutus. 
       </p>
 
     </div>
