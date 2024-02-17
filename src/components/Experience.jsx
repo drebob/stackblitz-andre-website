@@ -60,9 +60,9 @@ const Experience = () => (
             </h3>
             <p className="mt-2 text-sm leading-normal text-white">
               Maintain the various websites using Visual Studio and Wordpress
-              - Redesign homepge bi-weekly(minimum) - Redesign of existing
-              highly trafficked pages (homepage, product detail pages, product
-              category pages with filters) - acting as point of contact for
+              - Refresh the website's hero image twice a week to align with evolving marketing campaigns and audience engagement strategies.  - Redesign of existing
+              highly trafficked pages like homepage, product detail pages, and product
+              category pages - acting as point of contact for
               back-end programmer contractors - rapidy color-correcting and
               photoshopping high volumes of product shots - deploying,
               testing, debugging

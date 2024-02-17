@@ -243,7 +243,7 @@ export const App: FC = () => {
     <div className="relative bg-black-gradient mx-auto min-h-screen px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
       <Background options={backgroundOptions[activeBackground]} />
       <div className="relative z-10">
-        <div className={`lg:flex lg:justify-between lg:gap-10`}>
+        <div className={`lg:flex lg:justify-between lg:gap-4`}>
           <div className={`lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:justify-between lg:flex-col lg:py-24 xl:ml-9`}>
             <Title />
             <Nav activeSection={activeSection} />
@@ -256,7 +256,6 @@ export const App: FC = () => {
             <SocialMedia />
           </div>
           <div className={'lg:w-1/2'}>
-
            <About />
            <Experience />
           </div>
