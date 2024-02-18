@@ -1,7 +1,7 @@
 import { FC, useState, useEffect, useRef } from 'react';
 import Background from './components/Background';
 import './style.css';
-import { Experience, About, Title, SocialMedia, Nav } from './components';
+import { Experience, About, Title, SocialMedia, Nav, CursorEffect } from './components';
 import { ISourceOptions } from '@tsparticles/engine';
 
 
@@ -240,7 +240,8 @@ export const App: FC = () => {
   }, []);
 
   return (
-    <div className="relative bg-black-gradient mx-auto min-h-screen px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
+    <div className="z-0 relative bg-black-gradient mx-auto min-h-screen px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
+      <CursorEffect />
       <Background options={backgroundOptions[activeBackground]} />
       <div className="relative z-10">
         <div className={`lg:flex lg:justify-between lg:gap-4`}>
@@ -248,7 +249,7 @@ export const App: FC = () => {
             <Title />
             <Nav activeSection={activeSection} />
             <ul className="ml-1 mt-8 flex items-center" aria-label="Social media">
-                <li className="mr-5 text-xs shrink-0"><button className='block hover:text-slate-200 bg-white p-2 rounded font-bold' onClick={() => setActiveBackground('background1')}>BG 1</button></li>
+                <li className="mr-5 text-xs shrink-0"><button className='block hover:text-slate-200 bg-grey p-2 rounded font-bold' onClick={() => setActiveBackground('background1')}>BG 1</button></li>
                 <li className="mr-5 text-xs shrink-0"><button className='block hover:text-slate-200 bg-white p-2 rounded font-bold' onClick={() => setActiveBackground('background2')}>BG 2</button></li>
                 <li className="mr-5 text-xs shrink-0"><button className='block hover:text-slate-200 bg-white p-2 rounded font-bold' onClick={() => setActiveBackground('background3')}>BG 3</button></li>
                 <li className="mr-5 text-xs shrink-0"><button className='block hover:text-slate-200 bg-white p-2 rounded font-bold' onClick={() => setActiveBackground('background4')}>BG 4</button></li>

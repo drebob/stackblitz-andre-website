@@ -15,10 +15,7 @@ const About = () =>  (
         <p className={`font-poppins font-normal text-dimWhite text-[17.5px] leading-[26.8px] mt-5`}>
            When I'm not at a computer, I'm probably playing piano, playing video games, exercising, or spending quality time with friends and my dog, Brutus. 
       </p>
-
     </div>
-
-   
   </section>
 );
 
