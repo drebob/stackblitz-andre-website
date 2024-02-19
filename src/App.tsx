@@ -248,17 +248,23 @@ export const App: FC = () => {
           <div className={`lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:justify-between lg:flex-col lg:py-24 xl:ml-9`}>
             <Title />
             <Nav activeSection={activeSection} />
-            <ul className="ml-1 mt-8 flex items-center" aria-label="Social media">
-                <li className="mr-5 text-xs shrink-0"><button className='block hover:text-slate-200 bg-grey p-2 rounded font-bold' onClick={() => setActiveBackground('background1')}>BG 1</button></li>
-                <li className="mr-5 text-xs shrink-0"><button className='block hover:text-slate-200 bg-white p-2 rounded font-bold' onClick={() => setActiveBackground('background2')}>BG 2</button></li>
-                <li className="mr-5 text-xs shrink-0"><button className='block hover:text-slate-200 bg-white p-2 rounded font-bold' onClick={() => setActiveBackground('background3')}>BG 3</button></li>
-                <li className="mr-5 text-xs shrink-0"><button className='block hover:text-slate-200 bg-white p-2 rounded font-bold' onClick={() => setActiveBackground('background4')}>BG 4</button></li>
-              </ul>
             <SocialMedia />
           </div>
           <div className={'lg:w-1/2'}>
            <About />
            <Experience />
+           <section
+  id="background"
+  className="mt-24 mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+  aria-label="Backgrounds"
+>
+           <ul className="ml-1 mt-8 flex items-center" aria-label="Social media">
+                <li className="mr-5 text-xs shrink-0"><button className='block hover:text-slate-200 bg-grey p-2 rounded font-bold' onClick={() => setActiveBackground('background1')}>BG 1</button></li>
+                <li className="mr-5 text-xs shrink-0"><button className='block hover:text-slate-200 bg-white p-2 rounded font-bold' onClick={() => setActiveBackground('background2')}>BG 2</button></li>
+                <li className="mr-5 text-xs shrink-0"><button className='block hover:text-slate-200 bg-white p-2 rounded font-bold' onClick={() => setActiveBackground('background3')}>BG 3</button></li>
+                <li className="mr-5 text-xs shrink-0"><button className='block hover:text-slate-200 bg-white p-2 rounded font-bold' onClick={() => setActiveBackground('background4')}>BG 4</button></li>
+              </ul>
+           </section>
           </div>
         </div>
       </div>
