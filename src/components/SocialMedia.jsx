@@ -1,6 +1,6 @@
 const SocialMedia = () => {
   return (
-    <ul className="ml-1 mt-8 flex items-center" aria-label="Social media">
+    <ul className="ml-1 mt-8 flex items-center z-0" aria-label="Social media">
       <li className="mr-5 text-xs shrink-0">
         <a
           className="block hover:text-slate-200"
@@ -14,7 +14,8 @@ const SocialMedia = () => {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 16 16"
-            fill="currentColor"
+            fill="white"
+            fill-opacity="0.7"
             className="h-6 w-6"
             aria-hidden="true"
           >
@@ -35,7 +36,8 @@ const SocialMedia = () => {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
-            fill="currentColor"
+             fill="white"
+            fill-opacity="0.7"
             className="h-6 w-6"
             aria-hidden="true"
           >
@@ -45,7 +47,7 @@ const SocialMedia = () => {
       </li>
       <li className="mr-5 text-xs shrink-0">
         <a
-          className="block hover:text-slate-200"
+          className="block hover:text-slate-800"
           href="https://codepen.io/ahallrod"
           target="_blank"
           rel="noreferrer noopener"
@@ -57,7 +59,8 @@ const SocialMedia = () => {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 64 64"
             fill="none"
-            stroke="currentColor"
+            stroke="white"
+            stroke-opacity="0.7"
             strokeWidth={2}
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -84,7 +87,8 @@ const SocialMedia = () => {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1000 1000"
-            fill="currentColor"
+             fill="white"
+            fill-opacity="0.7"
             className="h-6 w-6"
             aria-hidden="true"
           >
@@ -105,7 +109,8 @@ const SocialMedia = () => {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
-            fill="currentColor"
+             fill="white"
+            fill-opacity="0.7"
             className="h-6 w-6"
             aria-hidden="true"
           >

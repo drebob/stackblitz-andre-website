@@ -48,7 +48,7 @@ const backgroundOptions: { [key: string]: ISourceOptions } = {
           density: 5000
         },
         repulse: {
-          distance: 100,
+          distance: 25,
           duration: 0.4,
         },
       },
@@ -198,6 +198,13 @@ const backgroundOptions: { [key: string]: ISourceOptions } = {
       },
     },
   },
+  background5: {
+    particles: {
+      number: {
+        value: 0,
+      },
+    },
+  },
 };
 
 export const App: FC = () => {
@@ -225,7 +232,7 @@ export const App: FC = () => {
           }
         });
       },
-      { rootMargin: '0px', threshold: 0.75 }
+      { rootMargin: '0px', threshold: 0.5 }
     );
 
     sections.forEach((section) => {
@@ -250,21 +257,21 @@ export const App: FC = () => {
             <Nav activeSection={activeSection} />
             <SocialMedia />
           </div>
-          <div className={'lg:w-1/2'}>
+          <div className={'lg:w-1/2 lg:pb-24 xl:mb-9"'}>
            <About />
            <Experience />
-           <section
-  id="background"
-  className="mt-24 mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
-  aria-label="Backgrounds"
->
-           <ul className="ml-1 mt-8 flex items-center" aria-label="Social media">
-                <li className="mr-5 text-xs shrink-0"><button className='block hover:text-slate-200 bg-grey p-2 rounded font-bold' onClick={() => setActiveBackground('background1')}>BG 1</button></li>
-                <li className="mr-5 text-xs shrink-0"><button className='block hover:text-slate-200 bg-white p-2 rounded font-bold' onClick={() => setActiveBackground('background2')}>BG 2</button></li>
-                <li className="mr-5 text-xs shrink-0"><button className='block hover:text-slate-200 bg-white p-2 rounded font-bold' onClick={() => setActiveBackground('background3')}>BG 3</button></li>
-                <li className="mr-5 text-xs shrink-0"><button className='block hover:text-slate-200 bg-white p-2 rounded font-bold' onClick={() => setActiveBackground('background4')}>BG 4</button></li>
-              </ul>
+           <section id="background" className="mt-16 lg:hover:bg-slate-800/50 p-4 rounded w-full flex-wrap" aria-label="Backgrounds">
+           <ul className="flex justify-center items-center" aria-label="Background choices">
+    <li><button className='hover:text-slate-200 bg-grey p-3 mx-1 rounded font-bold' onClick={() => setActiveBackground('background1')}>DRIFTING STARS</button></li>
+    <li><button className='hover:text-slate-200 bg-white p-3 mx-1 rounded font-bold' onClick={() => setActiveBackground('background2')}>NODES</button></li>
+    <li><button className='hover:text-slate-200 bg-white p-3 mx-1 rounded font-bold' onClick={() => setActiveBackground('background3')}>AIR TRAFFIC</button></li>
+    <li><button className='hover:text-slate-200 bg-white p-3 mx-1 rounded font-bold' onClick={() => setActiveBackground('background4')}>CONSTELLATIONS</button></li>
+    <li><button className='hover:text-slate-200 bg-white p-3 mx-1 rounded font-bold' onClick={() => setActiveBackground('background5')}>CLEAN</button></li>
+  </ul>
            </section>
+           <div className={'lg:w-1/2 m-auto pt-16 text-dimWhite leading-6 text-justify text-sm'}>
+           <p>Built with Tailwind CSS, React, and tsParticles. Coded in Visual Studio Code within the StackBlitz online development environment. Deployed with Vercel.  </p>
+          </div>
           </div>
         </div>
       </div>
