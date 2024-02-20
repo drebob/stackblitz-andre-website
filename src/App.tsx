@@ -225,7 +225,7 @@ export const App: FC = () => {
           }
         });
       },
-      { rootMargin: '0px', threshold: 0.5 }
+      { rootMargin: '0px', threshold: 0.75 }
     );
 
     sections.forEach((section) => {
