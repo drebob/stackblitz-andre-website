@@ -270,7 +270,7 @@ export const App: FC = () => {
   </ul>
            </section>
            <div className={'lg:w-1/2 m-auto pt-16 text-dimWhite leading-6 text-justify text-sm'}>
-           <p>Built with Tailwind CSS, React, and tsParticles. Coded in Visual Studio Code within the StackBlitz online development environment. Deployed with Vercel.  </p>
+           <p>Built with <a href="https://tailwindcss.com/" className="font-semibold" target="_blank" aria-label="Tailwind Documentation (opens in new tab)">Tailwind CSS</a>, <a href="https://react.dev/" className="font-semibold" aria-label="Official React Documentation (opens in new tab)" target="_blank">React</a>, and <a href="https://particles.js.org/" className="font-semibold" aria-label="Official tsParticles Documentation (opens in new tab)">tsParticles</a>. Coded in <a href="https://code.visualstudio.com/" className="font-semibold" aria-label="Official Visual Studio Code Website(opens in new tab)" target="_blank">Visual Studio Code</a> within the <a href="https://stackblitz.com/" className="font-semibold" target="_blank" aria-label="Official StackBlitz Website(opens in new tab)">StackBlitz</a> online development environment. Deployed with <a href="https://vercel.com/" className="font-semibold">Vercel.</a>  </p>
           </div>
           </div>
         </div>

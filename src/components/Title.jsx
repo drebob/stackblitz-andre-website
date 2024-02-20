@@ -15,7 +15,7 @@ const Title = () => {
           Web Developer & Designer
         </p>
         <p className={`font-poppins font-normal text-dimWhite text-[16px] leading-[22.8px] w-1/2 mt-4`}>
-        Expert in digital design with Adobe Suite and AI, along with modern front-end technologies like Tailwind, React, and jQuery.
+        Expert in digital design with <a href="adobe.com" className="font-semibold" target="blank" aria-label="Official Adobe Website(opens in new tab)">Adobe Suite</a> and <a href="https://openai.com/" className="font-semibold" aria-label="Official ChatGPT Website(opens in new tab)" target="_blank">AI</a>, along with modern front-end technologies like <a href="https://tailwindcss.com/" className="font-semibold" target="_blank" aria-label="Official Tailwind Documentation(opens in new tab)">Tailwind CSS</a>, <a href="https://react.dev/" className="font-semibold" aria-label="Official React Documentation (opens in new tab)" target="_blank">React</a>, and <a href="https://jquery.com/" className="font-semibold" target="_blank" aria-label="Official jQuery Website(opens in new tab)">jQuery</a>.
         </p>
       </div>
 
