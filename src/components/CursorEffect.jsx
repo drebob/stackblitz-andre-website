@@ -41,8 +41,8 @@ const CursorEffect = () => {
         left: `${position.x + 50}px`,
         top: `${position.y + 50}px`,
         opacity: hidden ? 0 : 1
-      }}
-    />
+      }}></div>
+    
   );
 };
 
