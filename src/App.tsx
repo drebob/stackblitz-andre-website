@@ -247,7 +247,7 @@ export const App: FC = () => {
   }, []);
 
   return (
-    <div className="z-0 relative bg-black-gradient mx-auto min-h-screen px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
+    <div className={'z-0 relative bg-black-gradient mx-auto min-h-screen px-6 py-12 font-sans md:px-12 md:py-20 lg:px-40 lg:py-0 xl:px-60'}>
       <CursorEffect />
       <Background options={backgroundOptions[activeBackground]} />
       <div className="relative z-10">
