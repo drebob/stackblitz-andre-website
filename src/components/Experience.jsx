@@ -306,7 +306,7 @@ const Experience = () => (
                 </div>
               </li>
             </ul>
-          </div>
+          </div> 
         </div>
       </li>
       <li className="mb-12">
@@ -323,7 +323,7 @@ const Experience = () => (
               <div>
                 <a
                   className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                  href="https://starry.com/"
+                  href="#"
                   target="_blank"
                   rel="noreferrer noopener"
                   aria-label="Software Engineer Co-op at Starry (opens in a new tab)"
@@ -419,10 +419,10 @@ const Experience = () => (
               <div>
                 <a
                   className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-                  href="https://us.mullenlowe.com/"
+                  href="https://retail1031.com/"
                   target="_blank"
                   rel="noreferrer noopener"
-                  aria-label="Creative Technologist Co-op at MullenLowe U.S. (opens in a new tab)"
+                  aria-label="Retail 1031 Commercial Real Estate Company (opens in a new tab)"
                 >
                   <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block" />
                   <span>
@@ -502,9 +502,9 @@ const Experience = () => (
         </div>
       </li>
     </ol>
-    <div className="mt-12 align-center text-center m-auto">
+    <div className="mt-12">
       <a
-        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 font-semibold text-slate-200 group/link text-base"
+        className="block m-auto items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 font-semibold text-slate-200 group/link text-center"
         href="/resume.pdf"
         target="_blank"
         rel="noreferrer noopener"
