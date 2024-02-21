@@ -502,7 +502,7 @@ const Experience = () => (
         </div>
       </li>
     </ol>
-    <div className="mt-12">
+    <div className="mt-12 align-center text-center m-auto">
       <a
         className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 font-semibold text-slate-200 group/link text-base"
         href="/resume.pdf"

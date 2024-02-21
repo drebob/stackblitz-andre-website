@@ -261,12 +261,15 @@ export const App: FC = () => {
            <About />
            <Experience />
            <section id="background" className="mt-16 lg:hover:bg-slate-800/50 p-4 rounded w-full flex-wrap" aria-label="Backgrounds">
-           <ul className="flex justify-center items-center" aria-label="Background choices">
-    <li><button className='hover:text-slate-200 bg-grey p-3 mx-1 rounded font-bold' onClick={() => setActiveBackground('background1')}>DRIFTING STARS</button></li>
-    <li><button className='hover:text-slate-200 bg-white p-3 mx-1 rounded font-bold' onClick={() => setActiveBackground('background2')}>NODES</button></li>
-    <li><button className='hover:text-slate-200 bg-white p-3 mx-1 rounded font-bold' onClick={() => setActiveBackground('background3')}>AIR TRAFFIC</button></li>
-    <li><button className='hover:text-slate-200 bg-white p-3 mx-1 rounded font-bold' onClick={() => setActiveBackground('background4')}>CONSTELLATIONS</button></li>
-    <li><button className='hover:text-slate-200 bg-white p-3 mx-1 rounded font-bold' onClick={() => setActiveBackground('background5')}>CLEAN</button></li>
+          <div className="text-center block m-auto pb-3 items-baseline font-medium text-xl leading-tight text-slate-200 group/link text-base">
+            Click a button below to change your background
+          </div>
+           <ul className="flex flex-wrap justify-center items-center w-3/4 m-auto" aria-label="Background choices">
+    <li><button className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 m-1 text-md font-medium leading-5 text-teal-300' onClick={() => setActiveBackground('background1')}>Drifting Stars</button></li>
+    <li><button className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 m-1 text-md font-medium leading-5 text-teal-300 ' onClick={() => setActiveBackground('background2')}>Nodes</button></li>
+    <li><button className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 m-1 text-md font-medium leading-5 text-teal-300 ' onClick={() => setActiveBackground('background3')}>Air Traffic</button></li>
+    <li><button className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 m-1 text-md font-medium leading-5 text-teal-300 ' onClick={() => setActiveBackground('background4')}>Constellations</button></li>
+    <li><button className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 m-1 text-md font-medium leading-5 text-teal-300 ' onClick={() => setActiveBackground('background5')}>Clean</button></li>
   </ul>
            </section>
            <div className={'lg:w-1/2 m-auto pt-16 text-dimWhite leading-6 text-justify text-sm'}>
