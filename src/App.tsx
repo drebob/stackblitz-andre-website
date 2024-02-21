@@ -261,6 +261,11 @@ export const App: FC = () => {
            <About />
            <Experience />
            <section id="background" className="mt-16 lg:hover:bg-slate-800/50 p-4 rounded w-full flex-wrap" aria-label="Backgrounds">
+           <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
+    <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
+      Backgrounds
+    </h2>
+  </div>
           <div className="text-center block m-auto pb-3 items-baseline font-medium text-xl leading-tight text-slate-200 group/link text-base">
             Click a button below to change your background
           </div>
