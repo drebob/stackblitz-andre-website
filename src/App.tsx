@@ -212,6 +212,19 @@ export const App: FC = () => {
   const [activeSection, setActiveSection] = useState('');
 
   useEffect(() => {
+// Calculate dynamic threshold based on section height
+const calculateDynamicThreshold = (section) => {
+  const viewportHeight = window.innerHeight;
+  const sectionHeight = section.offsetHeight;
+  // If the section height is greater than the viewport height, use a lower threshold
+  if (sectionHeight > viewportHeight*2) {
+    return 0.25; // Adjust this value as needed
+  } else {
+    return 0.5; // Default threshold if section fits in the viewport
+  }
+};
+
+
     const sections = document.querySelectorAll('section'); // Assuming your sections have a 'section' tag
     const navLinks = document.querySelectorAll('.nav a'); // Your nav links
 
@@ -235,16 +248,39 @@ export const App: FC = () => {
       { rootMargin: '0px', threshold: 0.5 }
     );
 
-    sections.forEach((section) => {
-      observer.observe(section);
+     // Disconnect previous observers and re-observe with dynamic threshold
+     sections.forEach((section) => {
+      observer.unobserve(section);
+      const dynamicThreshold = calculateDynamicThreshold(section);
+      const observerWithDynamicThreshold = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const id = entry.target.getAttribute('id');
+              setActiveSection(id);
+
+              navLinks.forEach((link) => {
+                if (link.getAttribute('href') === `#${id}`) {
+                  link.parentElement.classList.add('active');
+                } else {
+                  link.parentElement.classList.remove('active');
+                }
+              });
+            }
+          });
+        },
+        { rootMargin: '0px', threshold: dynamicThreshold }
+      );
+      observerWithDynamicThreshold.observe(section);
     });
 
+    // Cleanup function to disconnect all observers
     return () => {
       sections.forEach((section) => {
         observer.unobserve(section);
       });
     };
-  }, []);
+  }, []); // Dependency array remains empty to run once on mount
 
   return (
     <div className={'z-0 relative bg-black-gradient mx-auto min-h-screen px-6 py-12 font-sans md:px-12 md:py-20 lg:px-40 lg:py-0 xl:px-60'}>
