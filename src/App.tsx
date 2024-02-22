@@ -283,7 +283,7 @@ const calculateDynamicThreshold = (section) => {
   }, []); // Dependency array remains empty to run once on mount
 
   return (
-    <div className={'z-0 relative bg-black-gradient mx-auto min-h-screen px-6 py-12 font-sans md:px-12 md:py-20 lg:px-40 lg:py-0 xl:px-60'}>
+    <div className={'z-0 relative bg-black-gradient mx-auto min-h-screen px-12 py-12 font-sans md:px-12 md:py-20 lg:px-40 lg:py-0 xl:px-60'}>
       <CursorEffect />
       <Background options={backgroundOptions[activeBackground]} />
       <div className="relative z-10">
@@ -297,7 +297,7 @@ const calculateDynamicThreshold = (section) => {
            <About />
            <Experience />
            <section id="background" className={'flex flex-col pt-24'}>
-      <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:px-0 lg:py-0 lg:opacity-0">
+      <div className="sticky top-0 z-20 -ml-12 mb-4 w-screen bg-slate-900/75 px-12 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:px-0 lg:py-0 lg:opacity-0">
     <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
       Backgrounds
     </h2>
