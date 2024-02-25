@@ -7,9 +7,9 @@ const Title = () => {
         
 
         <div className="flex flex-row justify-between items-center w-full">
-          <p className={'flex-1 font-bSans font-semibold xs:text-[52px] ss:text-[42px] sm:text-[42px] md:text-[50px] lg:text-[50px] xl:text-[50px] xxl:text-[50px] text-white'}>
+          <h1 className={'flex-1 font-bSans font-semibold xs:text-[52px] ss:text-[42px] sm:text-[42px] md:text-[50px] lg:text-[50px] xl:text-[50px] xxl:text-[50px] text-white'}>
             Andre Hall-Rodrigues 
-          </p>
+          </h1>
         </div>
         <p className={'font-bSans font-normal xs:text-[26px] md:text-[50px] lg:text-[32px] text-white w-full mt-4'}>
           Web Developer & Designer
