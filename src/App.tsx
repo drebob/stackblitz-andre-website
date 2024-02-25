@@ -212,17 +212,17 @@ export const App: FC = () => {
   const [activeSection, setActiveSection] = useState('');
 
   useEffect(() => {
-// Calculate dynamic threshold based on section height
-const calculateDynamicThreshold = (section) => {
-  const viewportHeight = window.innerHeight;
-  const sectionHeight = section.offsetHeight;
-  // If the section height is greater than the viewport height, use a lower threshold
-  if (sectionHeight > viewportHeight*2) {
-    return 0.25; // Adjust this value as needed
-  } else {
-    return 0.5; // Default threshold if section fits in the viewport
-  }
-};
+    // Calculate dynamic threshold based on section height
+    const calculateDynamicThreshold = (section) => {
+      const viewportHeight = window.innerHeight;
+      const sectionHeight = section.offsetHeight;
+      // If the section height is greater than the viewport height, use a lower threshold
+      if (sectionHeight > viewportHeight * 2) {
+        return 0.25; // Adjust this value as needed
+      } else {
+        return 0.5; // Default threshold if section fits in the viewport
+      }
+    };
 
 
     const sections = document.querySelectorAll('section'); // Assuming your sections have a 'section' tag
@@ -248,8 +248,8 @@ const calculateDynamicThreshold = (section) => {
       { rootMargin: '0px', threshold: 0.5 }
     );
 
-     // Disconnect previous observers and re-observe with dynamic threshold
-     sections.forEach((section) => {
+    // Disconnect previous observers and re-observe with dynamic threshold
+    sections.forEach((section) => {
       observer.unobserve(section);
       const dynamicThreshold = calculateDynamicThreshold(section);
       const observerWithDynamicThreshold = new IntersectionObserver(
@@ -294,28 +294,28 @@ const calculateDynamicThreshold = (section) => {
             <SocialMedia />
           </div>
           <div className={'lg:w-1/2 lg:pb-24 xl:mb-9"'}>
-           <About />
-           <Experience />
-           <section id="background" className={'flex flex-col pt-24'}>
-      <div className="sticky top-0 z-20 -ml-12 mb-4 w-screen bg-slate-900/75 px-12 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:px-0 lg:py-0 lg:opacity-0">
-    <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
-      Backgrounds
-    </h2>
-  </div>
-          <div className="text-center block m-auto pb-3 items-baseline font-medium text-xl leading-tight text-slate-200 group/link text-base">
-            Click a button below to change your background
-          </div>
-           <ul className="flex flex-wrap justify-center items-center w-3/4 m-auto" aria-label="Background choices">
-    <li><button className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 m-1 text-md font-medium leading-5 text-teal-300' onClick={() => setActiveBackground('background1')}>Drifting Stars</button></li>
-    <li><button className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 m-1 text-md font-medium leading-5 text-teal-300 ' onClick={() => setActiveBackground('background2')}>Nodes</button></li>
-    <li><button className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 m-1 text-md font-medium leading-5 text-teal-300 ' onClick={() => setActiveBackground('background3')}>Air Traffic</button></li>
-    <li><button className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 m-1 text-md font-medium leading-5 text-teal-300 ' onClick={() => setActiveBackground('background4')}>Constellations</button></li>
-    <li><button className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 m-1 text-md font-medium leading-5 text-teal-300 ' onClick={() => setActiveBackground('background5')}>Clean</button></li>
-  </ul>
-           </section>
-           <div className={'lg:w-1/2 m-auto pt-16 text-dimWhite leading-6 text-justify text-sm'}>
-           <p>Built with <a href="https://tailwindcss.com/" className="font-semibold" target="_blank" aria-label="Tailwind Documentation (opens in new tab)">Tailwind CSS</a>, <a href="https://react.dev/" className="font-semibold" aria-label="Official React Documentation (opens in new tab)" target="_blank">React</a>, and <a href="https://particles.js.org/" className="font-semibold" aria-label="Official tsParticles Documentation (opens in new tab)">tsParticles</a>. Coded in <a href="https://code.visualstudio.com/" className="font-semibold" aria-label="Official Visual Studio Code Website(opens in new tab)" target="_blank">Visual Studio Code</a> within the <a href="https://stackblitz.com/" className="font-semibold" target="_blank" aria-label="Official StackBlitz Website(opens in new tab)">StackBlitz</a> online development environment. Deployed with <a href="https://vercel.com/" className="font-semibold">Vercel.</a>  </p>
-          </div>
+            <About />
+            <Experience />
+            <section id="background" className={'flex flex-col invisible h-0 pt-0 md:visible md:pt-24 md:h-auto'}>
+              <div className="sticky top-0 z-20 -ml-12 mb-4 w-screen bg-slate-900/75 px-12 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:px-0 lg:py-0 lg:opacity-0">
+                <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
+                  Backgrounds
+                </h2>
+              </div>
+              <div className="text-center block m-auto pb-3 items-baseline font-medium text-xl leading-tight text-slate-200 group/link text-base">
+                Click a button below to change your background
+              </div>
+              <ul className="flex flex-wrap justify-center items-center w-3/4 m-auto" aria-label="Background choices">
+                <li><button className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 m-1 text-md font-medium leading-5 text-teal-300' onClick={() => setActiveBackground('background1')}>Drifting Stars</button></li>
+                <li><button className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 m-1 text-md font-medium leading-5 text-teal-300 ' onClick={() => setActiveBackground('background2')}>Nodes</button></li>
+                <li><button className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 m-1 text-md font-medium leading-5 text-teal-300 ' onClick={() => setActiveBackground('background3')}>Air Traffic</button></li>
+                <li><button className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 m-1 text-md font-medium leading-5 text-teal-300 ' onClick={() => setActiveBackground('background4')}>Constellations</button></li>
+                <li><button className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 m-1 text-md font-medium leading-5 text-teal-300 ' onClick={() => setActiveBackground('background5')}>Clean</button></li>
+              </ul>
+            </section>
+            <div className={'w-1/2 m-auto pt-16 text-dimWhite leading-6 text-sm'}>
+              <p>Built with <a href="https://tailwindcss.com/" className="font-semibold" target="_blank" aria-label="Tailwind Documentation (opens in new tab)">Tailwind CSS</a>, <a href="https://react.dev/" className="font-semibold" aria-label="Official React Documentation (opens in new tab)" target="_blank">React</a>, and <a href="https://particles.js.org/" className="font-semibold" aria-label="Official tsParticles Documentation (opens in new tab)">tsParticles</a>. Coded in <a href="https://code.visualstudio.com/" className="font-semibold" aria-label="Official Visual Studio Code Website(opens in new tab)" target="_blank">Visual Studio Code</a> within the <a href="https://stackblitz.com/" className="font-semibold" target="_blank" aria-label="Official StackBlitz Website(opens in new tab)">StackBlitz</a> online development environment. Deployed with <a href="https://vercel.com/" className="font-semibold">Vercel.</a>  </p>
+            </div>
           </div>
         </div>
       </div>

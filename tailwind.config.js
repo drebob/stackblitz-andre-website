@@ -12,7 +12,7 @@ module.exports = {
         grey: "rgba(226, 232, 240, 0.5)",
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
+        bSans: ["Basic Sans", "sans-serif"],
       },
     },
     screens: {
