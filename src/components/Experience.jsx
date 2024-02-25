@@ -15,7 +15,7 @@ const Experience = () => (
         <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
           <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
           <header
-            className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
+            className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-zinc-400 sm:col-span-2"
             aria-label="2018 to Present"
           >
             APRIL '22 - DEC '23
@@ -53,7 +53,7 @@ const Experience = () => (
                 </a>
               </div>
               <div>
-                <div className="text-slate-500" aria-hidden="true">
+                <div className="text-zinc-400" aria-hidden="true">
                   Web Designer
                 </div>
               </div>
@@ -139,7 +139,7 @@ const Experience = () => (
         <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
           <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
           <header
-            className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
+            className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-zinc-400 sm:col-span-2"
             aria-label="July to December 2017"
           >
             Oct '20 - Nov '22
@@ -233,7 +233,7 @@ const Experience = () => (
         <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
           <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
           <header
-            className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
+            className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-zinc-400 sm:col-span-2"
             aria-label="2016 to 2017"
           >
             AUG '19 - JAN '20
@@ -313,7 +313,7 @@ const Experience = () => (
         <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
           <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
           <header
-            className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
+            className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-zinc-400 sm:col-span-2"
             aria-label="July to December 2016"
           >
             DEC '18 - AUG '19
@@ -409,7 +409,7 @@ const Experience = () => (
         <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
           <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg" />
           <header
-            className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
+            className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-zinc-400 sm:col-span-2"
             aria-label="July to December 2015"
           >
             SEP '16 - JULY '18
@@ -447,7 +447,7 @@ const Experience = () => (
                 </a>
               </div>
               <div>
-                <div className="text-slate-500" aria-hidden="true">
+                <div className="text-zinc-400" aria-hidden="true">
                   Graphic Designer
                 </div>
               </div>

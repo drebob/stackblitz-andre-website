@@ -59,7 +59,7 @@ const backgroundOptions: { [key: string]: ISourceOptions } = {
         value: 500,
       },
       color: {
-        value: "#ffffff",
+        value: "#99f6e4",
       },
       shape: {
         type: "circle",
@@ -78,7 +78,7 @@ const backgroundOptions: { [key: string]: ISourceOptions } = {
       },
       links: {
         color: {
-          value: "#b4d455",
+          value: "#99f6e4",
         },
       },
       move: {
@@ -96,7 +96,7 @@ const backgroundOptions: { [key: string]: ISourceOptions } = {
         value: 100,
       },
       color: {
-        value: "#ffffff",
+        value: "#99f6e4",
       },
       opacity: {
         value: 0.7,
@@ -106,7 +106,7 @@ const backgroundOptions: { [key: string]: ISourceOptions } = {
       },
       links: {
         enable: true,
-        color: "#ffffff",
+        color: "#99f6e4",
         distance: 200,
       },
     },
@@ -138,7 +138,7 @@ const backgroundOptions: { [key: string]: ISourceOptions } = {
         value: 50,
       },
       color: {
-        value: "#ffffff",
+        value: "#99f6e4",
       },
       opacity: {
         value: 0.4,
@@ -166,7 +166,7 @@ const backgroundOptions: { [key: string]: ISourceOptions } = {
         value: 70,
       },
       color: {
-        value: "#ffffff",
+        value: "#99f6e4",
       },
       opacity: {
         value: 0.6,
@@ -176,7 +176,7 @@ const backgroundOptions: { [key: string]: ISourceOptions } = {
       },
       links: {
         enable: true,
-        color: "#ffffff",
+        color: "#99f6e4",
         distance: 100,
       },
     },
