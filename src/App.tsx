@@ -302,10 +302,10 @@ export const App: FC = () => {
                   Backgrounds
                 </h2>
               </div>
-              <div className="text-center block m-auto pb-3 items-baseline font-medium text-xl leading-tight text-slate-200 group/link text-base">
+              <div className="text-center block m-auto pb-5 items-baseline font-medium text-xl leading-tight text-slate-200 group/link text-base">
                 Click a button below to change your background
               </div>
-              <ul className="flex flex-wrap justify-center items-center w-3/4 m-auto" aria-label="Background choices">
+              <ul className="flex flex-wrap justify-center items-center w-3/4 m-auto pb-5" aria-label="Background choices">
                 <li><button className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 m-1 text-md font-medium leading-5 text-teal-300' onClick={() => setActiveBackground('background1')}>Drifting Stars</button></li>
                 <li><button className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 m-1 text-md font-medium leading-5 text-teal-300 ' onClick={() => setActiveBackground('background2')}>Nodes</button></li>
                 <li><button className='flex items-center rounded-full bg-teal-400/10 px-3 py-1 m-1 text-md font-medium leading-5 text-teal-300 ' onClick={() => setActiveBackground('background3')}>Air Traffic</button></li>
