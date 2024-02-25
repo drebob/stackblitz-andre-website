@@ -297,7 +297,7 @@ export const App: FC = () => {
             <About />
             <Experience />
             <section id="background" className={'flex flex-col invisible h-0 pt-0 md:visible md:pt-24 md:h-auto'}>
-              <div className="sticky top-0 z-20 -ml-12 mb-4 w-screen bg-slate-900/75 px-12 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:px-0 lg:py-0 lg:opacity-0">
+              <div className="sticky top-0 z-20 -ml-12 mb-4 w-screen bg-slate-900/75 px-12 py-4 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:px-0 lg:py-0 lg:opacity-0">
                 <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
                   Backgrounds
                 </h2>
