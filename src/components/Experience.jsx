@@ -32,7 +32,7 @@ const Experience = () => (
                 >
                   <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                   <span>
-                    Lead Web Developer ·{" "}
+                    Lead Web Designer/Front-End Developer ·{" "}
                     <span className="inline-block">
                       Fairytale Brownies
                       <svg
@@ -156,7 +156,7 @@ const Experience = () => (
                 >
                   <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                   <span>
-                    Lead Web Developer ·{" "}
+                    Lead Web Designer/Developer ·{" "}
                     <span className="inline-block">
                       Petosa
                       <svg
