@@ -53,9 +53,7 @@ const Experience = () => (
                 </a>
               </div>
               <div>
-                <div className="text-zinc-400" aria-hidden="true">
-                Web Designer/Front-End Developer
-                </div>
+
               </div>
             </h3>
             <p className="mt-2 text-sm leading-normal text-white">
@@ -448,7 +446,7 @@ const Experience = () => (
               </div>
               <div>
                 <div className="text-zinc-400" aria-hidden="true">
-                Designer/Wordpress Developer
+                Graphic Designer
                 </div>
               </div>
             </h3>
