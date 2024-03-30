@@ -32,7 +32,7 @@ const Experience = () => (
                 >
                   <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                   <span>
-                    Lead Web Designer/Front-End Developer ·{" "}
+                    Web Designer/Front-End Developer ·{" "}
                     <span className="inline-block">
                       Fairytale Brownies
                       <svg
@@ -54,18 +54,12 @@ const Experience = () => (
               </div>
               <div>
                 <div className="text-zinc-400" aria-hidden="true">
-                  Web Designer
+                Web Designer/Front-End Developer
                 </div>
               </div>
             </h3>
             <p className="mt-2 text-sm leading-normal text-white">
-              Maintain the various websites using Visual Studio and Wordpress
-              - Refresh the website's hero image twice a week to align with evolving marketing campaigns and audience engagement strategies.  - Redesign of existing
-              highly trafficked pages like homepage, product detail pages, and product
-              category pages - acting as point of contact for
-              back-end programmer contractors - rapidy color-correcting and
-              photoshopping high volumes of product shots - deploying,
-              testing, debugging
+            Managed web development tasks, including troubleshooting, bug fixes, and live deployments, using tools like Visual Studio, Wordpress, and version control systems. - Lead the redesign and optimization of key web pages, significantly elevating user experience and boosting the site's performance metrics. - Followed the visual strategy for the brand's online presence, routinely refreshing imagery and maintaining a robust interactive catalog to drive customer engagement. - Championed data-driven design through advanced analytics and user behavior insights, resulting in informed enhancements and a substantial improvement in website accessibility standards. - Innovated cost-effective solutions in digital media production, employing Adobe Creative Suite expertise for high-volume photo editing, packaging reskins, and asset color correction.
             </p>
             <ul
               className="mt-2 flex flex-wrap"
@@ -123,12 +117,22 @@ const Experience = () => (
               </li>
               <li className="mr-1.5 mt-2">
                 <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                  C#
+                  Klaviyo
                 </div>
               </li>
               <li className="mr-1.5 mt-2">
                 <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
-                  Klaviyo
+                  Google Analytics
+                </div>
+              </li>
+              <li className="mr-1.5 mt-2">
+                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                 GitHub
+                </div>
+              </li>
+              <li className="mr-1.5 mt-2">
+                <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
+                 Visual Studio
                 </div>
               </li>
             </ul>
@@ -178,8 +182,7 @@ const Experience = () => (
               </div>
             </h3>
             <p className="mt-2 text-sm leading-normal text-white">
-              Migrate site from Wordpress to Shopify - Redesign the entire site - Work closely with owner - Create custom assets - Photoshop large volumes of product shots - Deploying,
-              testing, debugging
+            Redesigned and transitioned the client’s online presence from WordPress to Shopify - Lead the end-to-end design and development process, ensuring the project aligned with international sales goals and client specifications. - Customized functionality and aesthetics using a mix of Shopify’s Liquid templating language and third party applications - Directed client and staff training on Shopify's platform management, enabling effective product and price updates, and fostering client autonomy. - Provided comprehensive website maintenance and support, promptly resolving issues to ensure uninterrupted online operations and customer satisfaction.
             </p>
             <ul
               className="mt-2 flex flex-wrap"
@@ -271,10 +274,7 @@ const Experience = () => (
               </div>
             </h3>
             <p className="mt-2 text-sm leading-normal text-white">
-              Design marking packages for commercial properties - design
-              websites for specific properties and sales teams - collaborate
-              with project managers, realtors, and other designers - create
-              maps and other materials relevant to a prospective buyer
+            Designing flyers, posctcards, offering memorandums, and other print/marketing materials for commercial real estate properties, realtors, and events - Collaborating with realtors, project managers, other designers, and other departments to achieve a successful end product - Creating websites advertising commercial properties, and specific teams/offices
             </p>
             <ul
               className="mt-2 flex flex-wrap"
@@ -353,8 +353,8 @@ const Experience = () => (
             </h3>
             <p className="mt-2 text-sm leading-normal text-white">
               Creating a brand identity for the company (Logo, website,
-              general aesthetic) Editing drone videos in Adobe Premiere and
-              After Effects to meet client demands Communicating with clients
+              general aesthetic) - Editing drone videos in Adobe Premiere and
+              After Effects to meet client demands - Communicating with clients
               regarding their needs (Shotlists, highlighted information, etc.)
             </p>
             <ul
@@ -426,7 +426,7 @@ const Experience = () => (
                 >
                   <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block" />
                   <span>
-                    Lead Designer ·{" "}
+                    Designer/Wordpress Developer ·{" "}
                     <span className="inline-block">
                       Retail Investment Group
                       <svg
@@ -448,14 +448,12 @@ const Experience = () => (
               </div>
               <div>
                 <div className="text-zinc-400" aria-hidden="true">
-                  Graphic Designer
+                Designer/Wordpress Developer
                 </div>
               </div>
             </h3>
             <p className="mt-2 text-sm leading-normal text-white">
-              Creating new graphic, web and print assets for marketing Rapidly
-              completing Offering Memorandums (Within 24-48 hours) Creating
-              videos to advertise commercial properties
+            Creating new graphic, web and print assets for marketing - Creating videos to advertise commercial properties - Provided comprehensive website maintenance and support, promptly resolving issues to ensure uninterrupted online operations and customer satisfaction.
             </p>
             <ul
               className="mt-2 flex flex-wrap"
